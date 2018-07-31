@@ -1,11 +1,10 @@
 body {
-  background: linear-gradient(to left, #000428, #004e92);
-  color: #f8f8f8;
-  display: flex;
-  justify-content: center; }
+  background: #FFF;
+  color: #333;
+  display: flex; }
 
 h1 {
-  color: #f8f8f8;
+  color: #333;
   font-family: helvetica; }
 
 /*# sourceMappingURL=bundle.css.map*/
