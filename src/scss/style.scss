@@ -1,11 +1,3 @@
-body {
-  background: linear-gradient(to left,#000428 ,#004e92);
-  color: #f8f8f8;
-  display: flex;
-  justify-content: center;
-}
-
-h1 {
-  color: #f8f8f8;
-  font-family: helvetica;
-}
+@import './base/variables';
+@import './base/base';
+@import './base/typography';
