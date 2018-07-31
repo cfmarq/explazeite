@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 
-import Header from './components/Header';
-import Home from './components/Home';
-import Footer from './components/Footer';
+import Header from './Header';
+import Main from './Main';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Header />
-        <Home />
-        <Footer />
+        <Main />
       </div>
     );
   }
