@@ -20,8 +20,9 @@ Navigate into the folder name specified</p>
 <p>For those who love yarn:<br/>
 <strong>yarn install</strong><br/>
 For those who love NPM:<br/>
-<strong>npm install</strong><br/>
-Runnning the bundle<br/>
+<strong>npm install</strong></p>
+
+<h4>Runnning the bundle</h4>
 <strong>yarn build</strong><br/>
 or<br/>
 <strong>npm run build</strong></p>
