@@ -18,20 +18,20 @@ Navigate into the folder name specified</p>
 
 <h4>Installing Packages</h4>
 <p>For those who love yarn:<br/>
-<strong>yarn install</strong><br/>
+<i>yarn install</i><br/>
 For those who love NPM:<br/>
-<strong>npm install</strong></p>
+<i>npm install</i></p>
 
 <h4>Runnning the bundle</h4>
-<strong>yarn build</strong><br/>
+<i>yarn build</i><br/>
 or<br/>
-<strong>npm run build</strong></p>
+<i>npm run build</i></p>
  
 <h4>Running the app in Development</h4>
 <p>Run npm start to intialize and run the webpack development server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files.</p>
 
 <h4>Running the app in Production</h4>
 <p>To run the app in production build of the app, use either of the following:<br/>
-<strong>yarn start</strong><br/>
+<i>yarn start</i><br/>
 or<br/>
-<strong>npm start</strong></p>
+<i>npm start</i></p>
