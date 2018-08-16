@@ -1,0 +1,55 @@
+a.nav-link {
+  color: $lighter-gold;
+  padding:0px;
+  font-size: 20px;
+
+  &:hover{
+    color: $gold;
+  }
+}
+
+.navbar {
+  position: relative;
+}
+
+.collapse, .navbar-collapse {
+  height: 120px;
+}
+
+.navbar-brand {
+  width: 25%;
+}
+
+.navbar-nav {
+  margin-bottom: -35px;
+  margin-top: 15px;
+}
+
+.nav-logo {
+  max-width: 100%;
+}
+.nav-item {
+    margin: 0px 15px;
+}
+
+.dropdown-menu {
+  border: 0;
+  box-shadow: none;
+}
+
+.dropdown-item {
+  margin: 5px 0px;
+  background-color: $lighter-gold;
+
+  &:hover {
+    background-color: $gold;
+  }
+
+  & > a.nav-link {
+    font-size: 16px;
+  }
+}
+
+.dropdown-item > a.nav-link {
+  color: $white;
+}
