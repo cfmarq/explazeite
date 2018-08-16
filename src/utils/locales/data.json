@@ -1,0 +1,33 @@
+{   "en": {
+        "navbar.home": "Início",
+        "navbar.about": "Sobre",
+        "navbar.history": "História",
+        "navbar.mill": "Lagar",
+        "navbar.cellar": "Adega",
+        "navbar.products": "Produtos",
+        "navbar.olive-oil": "Azeite",
+        "navbar.wine": "Vinho",
+        "navbar.olive": "Azeitona",
+        "navbar.lupine": "Tremosso",
+        "navbar.mix": "Combinados",
+        "navbar.featured": "Destaques",
+        "navbar.contacts": "Contactos"
+
+    },
+    "pt":{
+      "navbar.home": "Home",
+      "navbar.about": "About",
+      "navbar.history": "History",
+      "navbar.mill": "Mill",
+      "navbar.cellar": "Cellar",
+      "navbar.products": "Products",
+      "navbar.olive-oil": "Olive Oil",
+      "navbar.wine": "Wine",
+      "navbar.olive": "Olive",
+      "navbar.lupine": "Lupine",
+      "navbar.mix": "Mix",
+      "navbar.featured": "Featured",
+      "navbar.contacts": "Contacts"
+
+    }
+}
