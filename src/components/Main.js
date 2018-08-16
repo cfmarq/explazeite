@@ -13,19 +13,11 @@ const Main = () => {
         <div>
           <Header/>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
 
-            <Route path="/history" component={History} />
-            <Route path="/mill" component={Contacts} />
-            <Route path="/cellar" component={Contacts} />
+            <Route path={process.env.PUBLIC_URL + "/history"} component={History} />
 
-            <Route path="/olive-oil" component={Contacts} />
-            <Route path="/wine" component={Contacts} />
-            <Route path="/olive" component={Contacts} />
-            <Route path="/lupine" component={Contacts} />
-            <Route path="/mix" component={Contacts} />
-
-            <Route path="/featured" component={Contacts} />
+            <Route path={process.env.PUBLIC_URL + "/featured"} component={Contacts} />
 
             <Route path="/contacts" component={Contacts} />
           </Switch>
