@@ -9,7 +9,7 @@ import Contacts from './Contacts';
 const Main = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
           <Header/>
           <Switch>

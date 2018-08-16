@@ -11,13 +11,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://cfmarq.github.io/explazeite",
+  "homepage": "http://cfmarq.github.io/explazeite",
   "keywords": [
-    "react",
-    "webpack",
-    "react sample",
-    "react starter",
-    "react boilerplate"
+    "explazeite",
+    "azeite",
+    "vinho"
   ],
   "author": "Carlos Marques <carlosfmarques@gmail.com>",
   "dependencies": {
