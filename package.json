@@ -12,7 +12,6 @@
     "deploy": "gh-pages -d dist"
   },
   "homepage": "https://cfmarq.github.io/explazeite",
-  "repository": "https://cfmarq.github.io/explazeite",
   "keywords": [
     "react",
     "webpack",
