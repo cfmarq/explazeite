@@ -9,9 +9,9 @@
     "build:production": "./node_modules/.bin/webpack --config webpack.config.production.js",
     "start": "./node_modules/.bin/webpack-dev-server --config webpack.config.production.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -b master -d dist"
   },
-  "homepage": "http://cfmarq.github.io/explazeite",
+  "homepage": "http://cfmarq.github.io/explazeite/",
   "keywords": [
     "explazeite",
     "azeite",
