@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "http://cfmarq.github.io/explazeite/",
+  "homepage": "https://cfmarq.github.io/explazeite/",
   "keywords": [
     "explazeite",
     "azeite",
