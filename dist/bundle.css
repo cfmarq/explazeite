@@ -15,6 +15,18 @@
 a {
   color: #BC933A; }
 
+.no-padding {
+  padding: 0px; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.mt20 {
+  margin-top: 20px; }
+
 a.nav-link {
   color: rgba(188, 147, 58, 0.7);
   padding: 0px;
@@ -55,5 +67,54 @@ a.nav-link {
 
 .dropdown-item > a.nav-link {
   color: #FFF; }
+
+.footer__div {
+  background-color: #BC933A;
+  color: #FFF; }
+
+.footer_img {
+  margin: 0px;
+  max-width: 100%; }
+
+.footer__div-left {
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+  height: 105px;
+  margin-top: 25px;
+  margin-right: 10px;
+  padding-top: 10px;
+  display: inline-block; }
+
+.footer__div-right {
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+  height: 105px;
+  margin-top: 25px;
+  padding-top: 10px;
+  display: inline-block; }
+
+.floating_margin_left {
+  margin-left: 20px; }
+
+.footer_regular {
+  font-family: "Myriad-Pro Regular";
+  font-size: 19px;
+  line-height: 42px; }
+
+.footer_light {
+  font-family: "Myriad-Pro Light";
+  font-size: 19px;
+  line-height: 42px; }
+
+.footer_copyright {
+  font-family: "Myriad-Pro Light";
+  font-size: 12px; }
+
+.footer_margin {
+  margin-bottom: 25px; }
+
+.footer-display {
+  display: flex;
+  height: 175px; }
 
 /*# sourceMappingURL=bundle.css.map*/
