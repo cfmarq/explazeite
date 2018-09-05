@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "eb7ff3c0e8babe460917"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "0074b23d0c816d6c68db"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -25538,16 +25538,9 @@ var Main = function Main() {
         _react2.default.createElement(
           _reactRouterDom.Switch,
           null,
-          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/history', component: _History2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/mill', component: _Contacts2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/cellar', component: _Contacts2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/olive-oil', component: _Contacts2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/wine', component: _Contacts2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/olive', component: _Contacts2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/lupine', component: _Contacts2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/mix', component: _Contacts2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/featured', component: _Contacts2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: process.env.PUBLIC_URL + "/", component: _Home2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, { path: process.env.PUBLIC_URL + "/history", component: _History2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, { path: process.env.PUBLIC_URL + "/featured", component: _Contacts2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { path: '/contacts', component: _Contacts2.default })
         )
       )
