@@ -15,11 +15,8 @@ const Main = () => {
           <Header/>
           <Switch>
             <Route exact path={"/"} component={Home} />
-
             <Route path={"/history"} component={History} />
-
             <Route path={"/featured"} component={Contacts} />
-
             <Route path="/contacts" component={Contacts} />
           </Switch>
           <Footer/>
