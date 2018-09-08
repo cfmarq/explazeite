@@ -1,0 +1,15 @@
+.carousel-indicators {
+    bottom: -70px;
+    list-style: circle !important;
+}
+
+.carousel-indicators li {
+    border: 1px solid #BC933A;
+    background-color: #BC933A;
+    opacity: 0.5;
+}
+
+.carousel-indicators li.active{
+    background-color: #BC933A;
+    opacity:1;
+}

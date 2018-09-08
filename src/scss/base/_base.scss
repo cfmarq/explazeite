@@ -17,6 +17,10 @@ a {
   padding: 0px;
 }
 
+.flex {
+  display: flex;
+}
+
 .float-left {
   float: left;
 }
@@ -27,4 +31,9 @@ a {
 
 .mt20 {
   margin-top: 20px;
+}
+
+.center-container {
+	margin-top: 0px;
+  margin-bottom: 100px;
 }

@@ -11,8 +11,54 @@
         "navbar.lupine": "Tremosso",
         "navbar.mix": "Combinados",
         "navbar.featured": "Destaques",
-        "navbar.contacts": "Contactos"
+        "navbar.contacts": "Contactos",
 
+        "mill.title": "A ADEGA",
+        "mill.p1": "Tardiamente, comparado ao fabrico de azeite, a produção vinícola tem vindo a ganhar um grande peso na infraestrutura da nossa empresa.",
+        "mill.p2": "Presentes no mercado com duas marcas de vinho, Casal da Melroeira e Terras do Zêzere, contamos com os conhecimentos do enólogo Jorge Páscoa e da vasta experiência dos nossos colaboradores.",
+        "mill.p3": "Para além da produção de uvas interna, apoiamo-nos na vinicultura e castas locais. No vinho branco utilizamos maioritariamente a casta Fernão Pires, no tinto as castas Periquita, Touringa Nacional e Alicante Bouschet.",
+        "mill.p4": "Laboriosos, procuramos a cada ano reforçar a qualidade bem como ampliar a gama de produtos. Em 2012 demos inicio a um processo de renovação e ampliação da adega, onde empregamos uma das mais avançadas tecnologias de produção vinícola.",
+
+        "cellar.title": "O LAGAR",
+        "cellar.p1": "Originário de um lagar tradicional de prensas, que deu lugar no ano de 1997 a um sistema modernizado de extração contínua, o lagar é o nosso “laboratório” de criação e experimentação.",
+        "cellar.p2": "Lucramos de uma das tecnologias de fabrico mais avançadas, com capacidade de produção de 6000 kg. por hora, tornando assim o processo acelerado, fator determinante para obter um azeite de qualidade.",
+        "cellar.p3": "Como complemento ao lagar, plantou-se no ano de 2012 cinco hectares de olival, que para além da produção de azeite se destinam também a produzir azeitona para conserva.",
+        "cellar.p4": "Paralelamente à produção interna, o lagar encontra-se aberto ao público, mediante marcação, nos meses de outubro a janeiro, dependendo da produção anual. A quantidade mínima ronda os 250 a 300 kg, havendo ainda a possibilidade de troca direta por azeite em quantidades inferiores.",
+
+        "contacts.where-are-we": "ONDE ESTAMOS",
+        "contacts.address1.p1": "Rua de Nossa Sr.<sup>a</sup> de Fátima n.<sup>o</sup> 728",
+        "contacts.address1.p2": "Freixial - Areias",
+        "contacts.address1.p3": "2240 - 118 Ferreira do Zêzere",
+        "contacts.open-store": "Com loja aberta ao público!",
+        "contacts.filial": "Filial:",
+        "contacts.address2.p1": "Avenida Gomes Pereira, n.<sup>o</sup> 68",
+        "contacts.address2.p2": "1500-328 Lisboa",
+
+        "contacts.reach-us": "FALE CONNOSCO",
+        "contacts.email.title": "Email",
+        "contacts.email.content": "geral@explazeite.pt // explazeite.lda@sapo.pt",
+        "contacts.telephone.title": "Contactos Telefónicos",
+        "contacts.telephone.headquarters": "Sede:",
+        "contacts.telephone.headquarters.t1": "Tlf: 249 391 018",
+        "contacts.telephone.headquarters.t2": "Tlm: 918 628 963 // 915 698 895",
+        "contacts.telephone.headquarters.fax": "Fax: 249 392 090",
+        "contacts.telephone.filial": "Filial:",
+        "contacts.telephone.filial.t1": "Tlm: 917 828 598",
+
+        "contacts.schedule": "HORÁRIO",
+        "contacts.p1": "Terça-feira a Sábado",
+        "contacts.p2": "8h00 - 12h30 // 13h30 - 19h00",
+        "contacts.p3": "Domingo",
+        "contacts.p4": "13h30 - 19h00",
+        "contacts.p5": "Encerramento Semanal",
+        "contacts.p6": "Segunda-feira",
+
+        "contacts.map": "MAPA",
+
+        "footer.feedback": "A sua opinião é importante. Partilhe-a!",
+        "footer.contact": "Contactos: 249 391 018 // 918 628 963",
+        "footer.follow": "Siga-nos",
+        "footer.copyright": "Todos os direitos reservados a Explazeite &#9400; 2017"
     },
     "pt":{
       "navbar.home": "Home",
@@ -27,7 +73,53 @@
       "navbar.lupine": "Lupine",
       "navbar.mix": "Mix",
       "navbar.featured": "Featured",
-      "navbar.contacts": "Contacts"
+      "navbar.contacts": "Contacts",
 
+      "mill.title": "A ADEGA",
+      "mill.p1": "Tardiamente, comparado ao fabrico de azeite, a produção vinícola tem vindo a ganhar um grande peso na infraestrutura da nossa empresa.",
+      "mill.p2": "Presentes no mercado com duas marcas de vinho, Casal da Melroeira e Terras do Zêzere, contamos com os conhecimentos do enólogo Jorge Páscoa e da vasta experiência dos nossos colaboradores.",
+      "mill.p3": "Para além da produção de uvas interna, apoiamo-nos na vinicultura e castas locais. No vinho branco utilizamos maioritariamente a casta Fernão Pires, no tinto as castas Periquita, Touringa Nacional e Alicante Bouschet.",
+      "mill.p4": "Laboriosos, procuramos a cada ano reforçar a qualidade bem como ampliar a gama de produtos. Em 2012 demos inicio a um processo de renovação e ampliação da adega, onde empregamos uma das mais avançadas tecnologias de produção vinícola.",
+
+      "cellar.title": "O LAGAR",
+      "cellar.p1": "Originário de um lagar tradicional de prensas, que deu lugar no ano de 1997 a um sistema modernizado de extração contínua, o lagar é o nosso “laboratório” de criação e experimentação.",
+      "cellar.p2": "Lucramos de uma das tecnologias de fabrico mais avançadas, com capacidade de produção de 6000 kg. por hora, tornando assim o processo acelerado, fator determinante para obter um azeite de qualidade.",
+      "cellar.p3": "Como complemento ao lagar, plantou-se no ano de 2012 cinco hectares de olival, que para além da produção de azeite se destinam também a produzir azeitona para conserva.",
+      "cellar.p4": "Paralelamente à produção interna, o lagar encontra-se aberto ao público, mediante marcação, nos meses de outubro a janeiro, dependendo da produção anual. A quantidade mínima ronda os 250 a 300 kg, havendo ainda a possibilidade de troca direta por azeite em quantidades inferiores.",
+
+      "contacts.where-are-we": "ONDE ESTAMOS",
+      "contacts.address1.p1": "Rua de Nossa Sr.ª de Fátima n.º 728",
+      "contacts.address1.p2": "Freixial - Areias",
+      "contacts.address1.p3": "2240 - 118 Ferreira do Zêzere",
+      "contacts.open-store": "Com loja aberta ao público!",
+      "contacts.filial": "Filial:",
+      "contacts.address2.p1": "Avenida Gomes Pereira, n.º 68",
+      "contacts.address2.p2": "1500-328 Lisboa",
+
+      "contacts.reach-us": "FALE CONNOSCO",
+      "contacts.email.title": "Email",
+      "contacts.email.content": "geral@explazeite.pt // explazeite.lda@sapo.pt",
+      "contacts.telephone.title": "Contactos Telefónicos",
+      "contacts.telephone.headquarters": "Sede:",
+      "contacts.telephone.headquarters.t1": "Tlf: 249 391 018",
+      "contacts.telephone.headquarters.t2": "Tlm: 918 628 963 // 915 698 895",
+      "contacts.telephone.headquarters.fax": "Fax: 249 392 090",
+      "contacts.telephone.filial": "Filial:",
+      "contacts.telephone.filial.t1": "Tlm: 917 828 598",
+
+      "contacts.schedule": "HORÁRIO",
+      "contacts.p1": "Terça-feira a Sábado",
+      "contacts.p2": "8h00 - 12h30 // 13h30 - 19h00",
+      "contacts.p3": "Domingo",
+      "contacts.p4": "13h30 - 19h00",
+      "contacts.p5": "Encerramento Semanal",
+      "contacts.p6": "Segunda-feira",
+
+      "contacts.map": "MAPA",
+
+      "footer.feedback": "A sua opinião é importante. Partilhe-a!",
+      "footer.contact": "Contactos: 249 391 018 // 918 628 963",
+      "footer.follow": "Siga-nos",
+      "footer.copyright": "Todos os direitos reservados a Explazeite © 2017"
     }
 }

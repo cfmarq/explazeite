@@ -1,16 +1,24 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
+import { UncontrolledCarousel } from 'reactstrap';
 
-import App from './App';
-import Contacts from './Contacts';
+const items = [
+  {
+    src: '/public/images/carousel/carousel1.png',
+    altText: '',
+    caption: ''
+  },
+  {
+    src: '/public/images/carousel/carousel2.png',
+  },
+  {
+    src: '/public/images/carousel/carousel3.png',
+  },
+  {
+    src: '/public/images/carousel/carousel4.png',
+  }
+];
 
-const Home = () => {
-  return (
-    <div>
-      <h1>hi!</h1>
-      <Link to="/contacts"><button>Contacts</button></Link>
-    </div>
-  )
-}
+
+const Home = () => <div className="center-container"><UncontrolledCarousel items={items} pause="false" /></div>;
 
 export default Home;
