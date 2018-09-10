@@ -1,0 +1,10 @@
+.btn-gold {
+  background-color:  $gold;
+  color: $white;
+  border: 0;
+  border-radius: 0px;
+
+  &:hover {
+    background-color: $lighter-gold;
+  }
+}

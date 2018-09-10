@@ -1,1 +1,13 @@
 $font-primary: $montserrat;
+
+h1, h2, h3 {
+  color: $gold;
+}
+
+h2.subheader {
+  color: $darker-grey;
+}
+
+p.subtitle {
+  color: $gold;
+}

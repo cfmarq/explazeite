@@ -13,6 +13,8 @@
         "navbar.featured": "Destaques",
         "navbar.contacts": "Contactos",
 
+        "buttons.read-more": "Ler mais",
+
         "mill.title": "A ADEGA",
         "mill.p1": "Tardiamente, comparado ao fabrico de azeite, a produção vinícola tem vindo a ganhar um grande peso na infraestrutura da nossa empresa.",
         "mill.p2": "Presentes no mercado com duas marcas de vinho, Casal da Melroeira e Terras do Zêzere, contamos com os conhecimentos do enólogo Jorge Páscoa e da vasta experiência dos nossos colaboradores.",
@@ -24,6 +26,31 @@
         "cellar.p2": "Lucramos de uma das tecnologias de fabrico mais avançadas, com capacidade de produção de 6000 kg. por hora, tornando assim o processo acelerado, fator determinante para obter um azeite de qualidade.",
         "cellar.p3": "Como complemento ao lagar, plantou-se no ano de 2012 cinco hectares de olival, que para além da produção de azeite se destinam também a produzir azeitona para conserva.",
         "cellar.p4": "Paralelamente à produção interna, o lagar encontra-se aberto ao público, mediante marcação, nos meses de outubro a janeiro, dependendo da produção anual. A quantidade mínima ronda os 250 a 300 kg, havendo ainda a possibilidade de troca direta por azeite em quantidades inferiores.",
+
+        "featured.title": "DESTAQUES",
+        "featured.item.social": "ACOMPANHE O NOSSO DIA NAS REDES SOCIAIS",
+
+        "featured.item1.label": "Nova imagem",
+        "featured.item1.subtitle": "Renovámos a nossa imagem",
+        "featured.item1.p1": "A imagem é outra, mais alegre e jovial, mas a qualidade é a que sempre nos caracterizou.",
+        "featured.item1.p2": "Num equilíbrio entre o tradicional (através das ilustrações em aguarela dos frutos) e o moderno (pela composição tipográfica), apresentamo-nos de “cara lavada”, cheios de energia e vontade de evoluir a cada ano de trabalho.",
+        "featured.item1.p3": "Agarre já um dos nossos produtos e embeleze a sua mesa, seja pelo sabor ou pela nova imagem!",
+        "featured.item1.p4": "Esta aplica-se a todos os azeites da marca Explazeite.",
+
+        "featured.item2.label": "É época de vindima!",
+        "featured.item2.subtitle": "A vindima bate à porta!",
+        "featured.item2.p1": "A vindima é sempre uma época de trabalho intenso, sem horários e de grande dedicação.",
+        "featured.item2.p2": "Para produzir-mos os nossos vinhos Casal da Melroeira e Terras do Zêzere, recorremos às vinhas que cuidamos, ao vasto conhecimento do nosso enólogo Jorge Paiva, e às uvas que nos chegam por parte dos produtores locais (as uvas são metodicamente selecionadas antes de aceites).",
+        "featured.item2.p3": "Não somos uma cooperativa, mas gostamos de cooperação! Unindo esforços conseguimos assim obter a quantidade de fruto necessário para a nossa produção anual.",
+
+        "featured.item3.label": "Nova lata de Azeite",
+        "featured.item3.subtitle": "Comemoramos 20 anos de existência.",
+        "featured.item3.p1": "As datas importantes devem de ser celebradas, e como tal, não poderíamos deixar em branco a comemoração das 20 primaveras da Explazeite.",
+        "featured.item3.p2": "A sua atividade teve início no ano de 1997, depois de laborar vários anos como um pequeno negócio familiar.",
+        "featured.item3.p3": "Génese de um lagar de prensas, onde era cumprida toda a tradição e metodologia de extração artesanal, hoje em dia laboramos com a mais avançada tecnologia de extração contínua.",
+        "featured.item3.p4": "Para comemorar toda este processo de aprendizagem constante, lançamos o azeite Terras do Zêzere Seleção Virgem, onde se preservam os mais intensos e típicos sabores do mediterrânio, através do seu toque peculiar e intenso, bem como a tradição dos cantares durante a apanha da azeitona em Ferreira do Zêzere!",
+        "featured.item3.p5": "O verso das latas é composto por quadras cantadas pelos locais aquando a apanha da azeitona na Quinta da Ponte do Tabuado – Fzz. Foram amavelmente cedidas por Luís Baião, e transcritas a partir da coleção iconográfica de seu avô, o Engenheiro José Baião.",
+        "featured.item3.p6": "A edição está disponível em latas de 500 ml.",
 
         "contacts.where-are-we": "ONDE ESTAMOS",
         "contacts.address1.p1": "Rua de Nossa Sr.<sup>a</sup> de Fátima n.<sup>o</sup> 728",
@@ -75,6 +102,9 @@
       "navbar.featured": "Featured",
       "navbar.contacts": "Contacts",
 
+      "buttons.read-more": "Ler mais",
+      "buttons.back": "Voltar",
+
       "mill.title": "A ADEGA",
       "mill.p1": "Tardiamente, comparado ao fabrico de azeite, a produção vinícola tem vindo a ganhar um grande peso na infraestrutura da nossa empresa.",
       "mill.p2": "Presentes no mercado com duas marcas de vinho, Casal da Melroeira e Terras do Zêzere, contamos com os conhecimentos do enólogo Jorge Páscoa e da vasta experiência dos nossos colaboradores.",
@@ -86,6 +116,31 @@
       "cellar.p2": "Lucramos de uma das tecnologias de fabrico mais avançadas, com capacidade de produção de 6000 kg. por hora, tornando assim o processo acelerado, fator determinante para obter um azeite de qualidade.",
       "cellar.p3": "Como complemento ao lagar, plantou-se no ano de 2012 cinco hectares de olival, que para além da produção de azeite se destinam também a produzir azeitona para conserva.",
       "cellar.p4": "Paralelamente à produção interna, o lagar encontra-se aberto ao público, mediante marcação, nos meses de outubro a janeiro, dependendo da produção anual. A quantidade mínima ronda os 250 a 300 kg, havendo ainda a possibilidade de troca direta por azeite em quantidades inferiores.",
+
+      "featured.title": "DESTAQUES",
+      "featured.item.social": "ACOMPANHE O NOSSO DIA NAS REDES SOCIAIS",
+
+      "featured.item1.label": "Nova imagem",
+      "featured.item1.subtitle": "Renovámos a nossa imagem",
+      "featured.item1.p1": "A imagem é outra, mais alegre e jovial, mas a qualidade é a que sempre nos caracterizou.",
+      "featured.item1.p2": "Num equilíbrio entre o tradicional (através das ilustrações em aguarela dos frutos) e o moderno (pela composição tipográfica), apresentamo-nos de “cara lavada”, cheios de energia e vontade de evoluir a cada ano de trabalho.",
+      "featured.item1.p3": "Agarre já um dos nossos produtos e embeleze a sua mesa, seja pelo sabor ou pela nova imagem!",
+      "featured.item1.p4": "Esta aplica-se a todos os azeites da marca Explazeite.",
+
+      "featured.item2.label": "É época de vindima!",
+      "featured.item2.subtitle": "A vindima bate à porta!",
+      "featured.item2.p1": "A vindima é sempre uma época de trabalho intenso, sem horários e de grande dedicação.",
+      "featured.item2.p2": "Para produzir-mos os nossos vinhos Casal da Melroeira e Terras do Zêzere, recorremos às vinhas que cuidamos, ao vasto conhecimento do nosso enólogo Jorge Paiva, e às uvas que nos chegam por parte dos produtores locais (as uvas são metodicamente selecionadas antes de aceites).",
+      "featured.item2.p3": "Não somos uma cooperativa, mas gostamos de cooperação! Unindo esforços conseguimos assim obter a quantidade de fruto necessário para a nossa produção anual.",
+
+      "featured.item3.label": "Nova lata de Azeite",
+      "featured.item3.subtitle": "Comemoramos 20 anos de existência.",
+      "featured.item3.p1": "As datas importantes devem de ser celebradas, e como tal, não poderíamos deixar em branco a comemoração das 20 primaveras da Explazeite.",
+      "featured.item3.p2": "A sua atividade teve início no ano de 1997, depois de laborar vários anos como um pequeno negócio familiar.",
+      "featured.item3.p3": "Génese de um lagar de prensas, onde era cumprida toda a tradição e metodologia de extração artesanal, hoje em dia laboramos com a mais avançada tecnologia de extração contínua.",
+      "featured.item3.p4": "Para comemorar toda este processo de aprendizagem constante, lançamos o azeite Terras do Zêzere Seleção Virgem, onde se preservam os mais intensos e típicos sabores do mediterrânio, através do seu toque peculiar e intenso, bem como a tradição dos cantares durante a apanha da azeitona em Ferreira do Zêzere!",
+      "featured.item3.p5": "O verso das latas é composto por quadras cantadas pelos locais aquando a apanha da azeitona na Quinta da Ponte do Tabuado – Fzz. Foram amavelmente cedidas por Luís Baião, e transcritas a partir da coleção iconográfica de seu avô, o Engenheiro José Baião.",
+      "featured.item3.p6": "A edição está disponível em latas de 500 ml.",
 
       "contacts.where-are-we": "ONDE ESTAMOS",
       "contacts.address1.p1": "Rua de Nossa Sr.ª de Fátima n.º 728",
