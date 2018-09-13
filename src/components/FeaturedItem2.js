@@ -32,8 +32,12 @@ const FeaturedItem2 = () => {
             <h3><FormattedMessage id="featured.item.social" /></h3>
           </div>
           <div>
-            <img className="social_ico" src="/public/images/fb_ico.png" height="35px" />
-            <img className="social_ico" src="/public/images/insta_ico.png" height="35px" />
+            <a href="https://www.facebook.com/explazeite/" target="_blank">
+              <img className="social_ico" src="/public/images/fb_ico.png" height="35px" />
+            </a>
+            <a href="https://www.instagram.com/explazeite/" target="_blank">
+              <img className="social_ico" src="/public/images/insta_ico.png" height="35px" />
+            </a>
           </div>
           <div>
             <Link to="/featured">

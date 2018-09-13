@@ -21,7 +21,7 @@ const Featured = () => {
               <p className="subtitle"><FormattedMessage id="featured.item1.label" /></p>
             </div>
             <div className="col-md-4 featured__label--button">
-              <Link to="/featuredItem1">
+              <Link to="/featured-1">
                 <Button className="btn-gold">
                   <FormattedMessage id="buttons.read-more" />
                 </Button>
@@ -41,7 +41,7 @@ const Featured = () => {
               <p className="subtitle"><FormattedMessage id="featured.item2.label" /></p>
             </div>
             <div className="col-md-4 featured__label--button">
-              <Link to="/featuredItem2">
+              <Link to="/featured-2">
                 <Button className="btn-gold">
                   <FormattedMessage id="buttons.read-more" />
                 </Button>
@@ -61,7 +61,7 @@ const Featured = () => {
               <p className="subtitle"><FormattedMessage id="featured.item3.label" /></p>
             </div>
             <div className="col-md-4 featured__label--button">
-              <Link to="/featuredItem3">
+              <Link to="/featured-3">
                 <Button className="btn-gold">
                   <FormattedMessage id="buttons.read-more" />
                 </Button>

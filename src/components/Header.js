@@ -66,27 +66,27 @@ export default class Header extends Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    <NavLink href="/olive-oil">
+                    <NavLink href="/products-oliveOil">
                       <FormattedMessage id="navbar.olive-oil" />
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="/wine">
+                    <NavLink href="/products-wine">
                       <FormattedMessage id="navbar.wine" />
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="/olive">
+                    <NavLink href="/products-olive">
                       <FormattedMessage id="navbar.olive" />
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="/lupine">
+                    <NavLink href="/products-lupine">
                       <FormattedMessage id="navbar.lupine" />
                     </NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="/mix">
+                    <NavLink href="/products-mix">
                       <FormattedMessage id="navbar.mix" />
                     </NavLink>
                   </DropdownItem>
