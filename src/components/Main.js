@@ -10,6 +10,9 @@ import FeaturedItem1 from './FeaturedItem1';
 import FeaturedItem2 from './FeaturedItem2';
 import FeaturedItem3 from './FeaturedItem3';
 import OliveOil from './OliveOil';
+import Wine from './Wine';
+import Olive from './Olive';
+import Lupine from './Lupine';
 import Header from './Header';
 import Footer from './Footer';
 import Contacts from './Contacts';
@@ -30,6 +33,9 @@ const Main = () => {
             <Route path={"/featured-2"} component={FeaturedItem2} />
             <Route path={"/featured-3"} component={FeaturedItem3} />
             <Route path={"/products-oliveOil"} component={OliveOil} />
+            <Route path={"/products-wine"} component={Wine} />
+            <Route path={"/products-olive"} component={Olive} />
+            <Route path={"/products-lupine"} component={Lupine} />
             <Route path="/contacts" component={Contacts} />
             <Route component={() => (<div>404 Not found </div>)} />
           </Switch>
