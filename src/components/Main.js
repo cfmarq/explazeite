@@ -13,6 +13,7 @@ import OliveOil from './OliveOil';
 import Wine from './Wine';
 import Olive from './Olive';
 import Lupine from './Lupine';
+import Mix from './Mix';
 import Header from './Header';
 import Footer from './Footer';
 import Contacts from './Contacts';
@@ -36,6 +37,7 @@ const Main = () => {
             <Route path={"/products-wine"} component={Wine} />
             <Route path={"/products-olive"} component={Olive} />
             <Route path={"/products-lupine"} component={Lupine} />
+            <Route path={"/products-mix"} component={Mix} />
             <Route path="/contacts" component={Contacts} />
             <Route component={() => (<div>404 Not found </div>)} />
           </Switch>
