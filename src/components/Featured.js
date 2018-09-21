@@ -7,7 +7,7 @@ const Featured = () => {
   return (
 
     <div className="center-container container">
-      <div className="col-md-12">
+      <div className="col-md-12 no-padding">
         <h1><FormattedMessage id="featured.title" /><br/>//</h1>
       </div>
 

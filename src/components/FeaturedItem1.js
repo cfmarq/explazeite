@@ -19,11 +19,11 @@ const FeaturedItem1 = () => {
   return (
 
     <div className="center-container container">
-      <div className="col-md-12">
+      <div className="col-md-12 no-padding">
         <h1><FormattedMessage id="featured.item1.label" /><br/>//</h1>
       </div>
 
-      <div className="col-xs-12 col-sm-8 col-md-8 featured-item__outer-box">
+      <div className="col-xs-12 col-sm-8 col-md-8 featured-item__outer-box no-padding">
         <div className="featured-item__inner-box">
           <UncontrolledCarousel items={items} pause="false" />
         </div>

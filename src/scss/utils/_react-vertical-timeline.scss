@@ -1,0 +1,16 @@
+.vertical-timeline::before {
+  background: $gold !important;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: none !important;
+  padding: 20px 13px;
+}
+
+.vertical-timeline-element-title {
+  text-align: right;
+}
+
+.vertical-timeline-element-title{
+  color: $darker-grey;
+}

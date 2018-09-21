@@ -49,7 +49,7 @@ class Lupine extends Component {
     );
 
     return (
-      <div className="container products__div">
+      <div className="container center-container products__div">
         <div className="col-xs-12 col-sm-9 col-md-3 products__left-div">
           <h1>
             <FormattedMessage id="products.lupine.title" /><br/>//

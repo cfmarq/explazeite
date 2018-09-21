@@ -1,6 +1,6 @@
 body {
   font-family: $font-primary;
-  background: $white;
+  background: $lighter-grey;
   color: $dark-grey;
   display: flex;
 }
@@ -29,6 +29,10 @@ a {
   float: right;
 }
 
+.center {
+  text-align: center;
+}
+
 .mt20 {
   margin-top: 20px;
 }
@@ -36,6 +40,10 @@ a {
 .center-container {
 	margin-top: 0px;
   margin-bottom: 100px;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .bold {

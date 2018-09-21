@@ -2,9 +2,14 @@
 @import './base/typography';
 @import './base/buttons';
 @import './base/base';
+
 @import './components/navbar';
 @import './components/footer';
-@import './components/carousel';
 @import './components/general';
+@import './components/history';
 @import './components/featured';
 @import './components/products';
+
+@import './utils/carousel';
+@import './utils/popup';
+@import './utils/react-vertical-timeline';

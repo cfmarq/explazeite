@@ -1,6 +1,6 @@
 a.nav-link {
   color: $lighter-gold;
-  padding:0px;
+  padding:0px !important;
   font-size: 20px;
 
   &:hover{
@@ -10,6 +10,8 @@ a.nav-link {
 
 .navbar {
   position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .collapse, .navbar-collapse {
@@ -29,7 +31,7 @@ a.nav-link {
   max-width: 100%;
 }
 .nav-item {
-    margin: 0px 15px;
+    margin: 0px 0px 0px 40px;
 }
 
 .dropdown-menu {
