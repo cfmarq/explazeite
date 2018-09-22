@@ -47,8 +47,19 @@
 }
 
 .featured-item__description {
-  margin-top: 100px;
+  margin-top: 85px;
   padding-left: 0 !important;
+}
+
+.featured-btn {
+  width: 80px;
+}
+
+.featured-borderbox {
+  padding-top: 10px;
+  margin-bottom: 15px;
+  border-top: 1px solid $gold;
+  border-bottom: 1px solid $gold;
 }
 
 .social_ico {

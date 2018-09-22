@@ -32,61 +32,85 @@ class Contacts extends Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div className="container center-container">
           <div className="box-container">
-            <div className="col-xs-12 col-sm-6 col-md-6 contacts-div">
-              <h1><FormattedMessage id="contacts.where-are-we" /><br/>//</h1>
-              <p><FormattedMessage id="contacts.address1.p1" /></p>
-              <p><FormattedMessage id="contacts.address1.p2" /></p>
-              <p><FormattedMessage id="contacts.address1.p3" /></p>
-              <p>-</p>
-              <p><i><FormattedMessage id="contacts.open-store" /></i></p>
-              <br/>
-              <p><FormattedMessage id="contacts.filial" /></p>
-              <p><FormattedMessage id="contacts.address2.p1" /></p>
-              <p><FormattedMessage id="contacts.address2.p2" /></p>
+            <div className="col-xs-12 col-sm-6 col-md-6 contacts-div pr15">
+              <h2><FormattedMessage id="contacts.where-are-we" /></h2>
+              <div className="contacts-borderbox pr15">
+                <p>
+                  <span className="subt_contactos">
+                    <FormattedMessage id="contacts.headquarters" />
+                  </span><br/>
+                  <FormattedMessage id="contacts.address1.p1" /><br/>
+                  <FormattedMessage id="contacts.address1.p2" /><br/>
+                  <FormattedMessage id="contacts.address1.p3" /><br/>
+                  -<br/>
+                  <i><FormattedMessage id="contacts.open-store" /></i>
+                </p>
+                <p>
+                  <span className="subt_contactos">
+                    <FormattedMessage id="contacts.filial" />
+                  </span><br/>
+                  <FormattedMessage id="contacts.address2.p1" /><br/>
+                  <FormattedMessage id="contacts.address2.p2" />
+                </p>
+              </div>
             </div>
-            <div className="col-xs-12 col-sm-6 col-md-6 contacts-div">
-              <h1><FormattedMessage id="contacts.reach-us" /><br/>//</h1>
-              <p><FormattedMessage id="contacts.email.title" /></p>
-              <p><FormattedMessage id="contacts.email.content" /></p>
-              <br/>
-              <p><FormattedMessage id="contacts.telephone.title" /></p>
-              <p><FormattedMessage id="contacts.telephone.headquarters" /></p>
-              <p><FormattedMessage id="contacts.telephone.headquarters.t1" /></p>
-              <p><FormattedMessage id="contacts.telephone.headquarters.t2" /></p>
-              <p><FormattedMessage id="contacts.telephone.headquarters.fax" /></p>
-              <br/>
-              <p><FormattedMessage id="contacts.telephone.filial" /></p>
-              <p><FormattedMessage id="contacts.telephone.filial.t1" /></p>
+
+            <div className="col-xs-12 col-sm-6 col-md-6 contacts-div pl15">
+              <h2><FormattedMessage id="contacts.reach-us" /><br/></h2>
+              <div className="contacts-borderbox pr15">
+                <p>
+                  <span className="subt_contactos">
+                    <FormattedMessage id="contacts.email.title" />
+                  </span><br/>
+                  <FormattedMessage id="contacts.email.content" />
+                </p>
+                <p>
+                  <span className="subt_contactos">
+                    <FormattedMessage id="contacts.telephone.title" />
+                  </span><br/>
+                  <FormattedMessage id="contacts.telephone.headquarters" /><br/>
+                  <FormattedMessage id="contacts.telephone.headquarters.t1" /><br/>
+                  <FormattedMessage id="contacts.telephone.headquarters.t2" /><br/>
+                  <FormattedMessage id="contacts.telephone.headquarters.fax" /><br/>
+                  <br/>
+                  <FormattedMessage id="contacts.telephone.filial" /><br/>
+                  <FormattedMessage id="contacts.telephone.filial.t1" />
+                </p>
+              </div>
             </div>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 contacts-div">
             <img className="contacts-img" src="/public/images/contactos.png" alt="" />
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 contacts-div">
-            <h1><FormattedMessage id="contacts.schedule" /><br/>//</h1>
-            <div className="col-md-12 flex no-padding">
-              <div className="col-md-4 no-padding">
-                <p><FormattedMessage id="contacts.p1" /></p>
-                <p><FormattedMessage id="contacts.p2" /></p>
-                <br/>
-              </div>
-              <div className="col-md-4 no-padding">
-                <p><FormattedMessage id="contacts.p3" /></p>
-                <p><FormattedMessage id="contacts.p4" /></p>
-                <br/>
-              </div>
-              <div className="col-md-4 no-padding">
-                <p><FormattedMessage id="contacts.p5" /></p>
-                <p><FormattedMessage id="contacts.p6" /></p>
+
+
+
+          <div className="flex ">
+            <div className="col-xs-12 col-sm-12 col-md-6 no-padding pr15">
+              <h2><FormattedMessage id="contacts.map" /><br/></h2>
+              <MyMapComponent key="map" />
+
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6">
+              <h2><FormattedMessage id="contacts.schedule" /><br/></h2>
+              <div className="featured-borderbox">
+                <p>
+                  <FormattedMessage id="contacts.p1" /><br/>
+                  <FormattedMessage id="contacts.p2" />
+                </p>
+                <p>
+                  <FormattedMessage id="contacts.p3" /><br/>
+                  <FormattedMessage id="contacts.p4" />
+                </p>
+                <p>//<br/>
+                  <FormattedMessage id="contacts.p5" /><br/>
+                  <FormattedMessage id="contacts.p6" />
+                </p>
               </div>
             </div>
           </div>
-          <h1><FormattedMessage id="contacts.map" /><br/>//</h1>
-        </div>
-        <div className="col-xs-12 col-sm-12 col-md-12 no-padding">
-          <MyMapComponent key="map" />
         </div>
       </div>
     );

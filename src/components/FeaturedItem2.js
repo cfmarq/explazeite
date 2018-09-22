@@ -16,8 +16,10 @@ const FeaturedItem2 = () => {
   return (
 
     <div className="center-container container">
-      <div className="col-md-12">
-        <h1><FormattedMessage id="featured.item2.label" /><br/>//</h1>
+      <div className="col-md-12 no-padding">
+        <h1><FormattedMessage id="featured.item2.label" /></h1>
+        <h3>//</h3>
+        <br/>
       </div>
 
       <div className="col-xs-12 col-sm-8 col-md-8 featured-item__outer-box">
@@ -28,20 +30,22 @@ const FeaturedItem2 = () => {
 
       <div className="col-xs-12 col-sm-4 col-md-4 featured-item__outer-box featured-item__right">
         <div className="featured__inner-box">
-          <div>
-            <h3><FormattedMessage id="featured.item.social" /></h3>
-          </div>
-          <div>
-            <a href="https://www.facebook.com/explazeite/" target="_blank">
-              <img className="social_ico" src="/public/images/fb_ico.png" height="35px" />
-            </a>
-            <a href="https://www.instagram.com/explazeite/" target="_blank">
-              <img className="social_ico" src="/public/images/insta_ico.png" height="35px" />
-            </a>
+          <div className="featured-borderbox">
+            <div>
+              <h3><FormattedMessage id="featured.item.social" /></h3>
+            </div>
+            <div>
+              <a href="https://www.facebook.com/explazeite/" target="_blank">
+                <img className="social_ico" src="/public/images/fb_ico.png" height="35px" />
+              </a>
+              <a href="https://www.instagram.com/explazeite/" target="_blank">
+                <img className="social_ico" src="/public/images/insta_ico.png" height="35px" />
+              </a>
+            </div>
           </div>
           <div>
             <Link to="/featured">
-              <Button className="btn-gold">
+              <Button className="btn-gold featured-btn">
                 <FormattedMessage id="buttons.back" />
               </Button>
             </Link>

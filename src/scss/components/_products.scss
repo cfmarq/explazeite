@@ -6,11 +6,17 @@
 .products__right-div {
   display: inline-block;
   vertical-align: top;
+  padding-right: 0px;
 }
 
 .product__outer-div {
   padding: 5px;
   display: inline-block;
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
 }
 
 .product-div {
@@ -25,6 +31,8 @@
   border-bottom: 2px solid $gold;
   height: 350px;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   & img {
     max-height: 100%;
@@ -84,4 +92,11 @@ p.popup-text {
 .modal-header {
   padding: 10px 10px 0px 0px;
   border: 0px;
+}
+
+.product__button-div {
+  background-color: $gold;
+  color: $white;
+  padding: 6px 1px;
+  text-align: center;
 }

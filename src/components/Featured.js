@@ -8,7 +8,11 @@ const Featured = () => {
 
     <div className="center-container container">
       <div className="col-md-12 no-padding">
-        <h1><FormattedMessage id="featured.title" /><br/>//</h1>
+        <h1>
+          <FormattedMessage id="featured.title" />
+        </h1>
+        <h3>//</h3>
+        <br/>
       </div>
 
       <div className="col-xs-12 col-sm-6 col-md-4 featured__outer-box">

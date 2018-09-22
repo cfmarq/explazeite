@@ -14,3 +14,8 @@
 .vertical-timeline-element-title{
   color: $darker-grey;
 }
+
+.vertical-timeline-element-content {
+  background: transparent !important;
+  box-shadow: none !important;
+}

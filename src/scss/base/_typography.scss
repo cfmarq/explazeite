@@ -1,13 +1,57 @@
 $font-primary: $montserrat;
+$font-secondary: $lato;
+
+$bold: 600;
+$light: 300;
+$lighter: 100;
+
 
 h1, h2, h3 {
   color: $gold;
 }
 
+h3 {
+  font-size: 20px;
+}
+
+.bars {
+  font-size: 25px;
+}
+
+h1, h2, h3 {
+  font-weight: $light;
+}
+
 h2.subheader {
+  font-weight: $light;
   color: $darker-grey;
+  padding-bottom: 30px;
+}
+
+p {
+  font-weight: $light;
+  color: $dark-grey;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 25px;
 }
 
 p.subtitle {
   color: $gold;
+}
+
+.subt_contactos {
+  color: $darker-grey;
+}
+
+.bold {
+  font-weight: $bold;
+}
+
+.light {
+  font-weight: $light;
+}
+
+.lighter {
+  font-weight: $lighter;
 }

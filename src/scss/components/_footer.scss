@@ -6,6 +6,10 @@
 .footer_img{
 	margin: 0px;
 	max-width: 100%;
+
+	&:hover {
+		opacity: 0.5;
+	}
 }
 
 .footer__div-left {
@@ -32,19 +36,18 @@
 }
 
 .footer_regular{
-	font-family: "Myriad-Pro Regular";
 	font-size: 19px;
 	line-height: 42px;
 }
 
 .footer_light{
-	font-family: "Myriad-Pro Light";
 	font-size: 19px;
 	line-height: 42px;
+	font-weight: $lighter;
 }
 
 .footer_copyright{
-	font-family: "Myriad-Pro Light";
+	font-weight: $light;
 	font-size: 12px;
 }
 

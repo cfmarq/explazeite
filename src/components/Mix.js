@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 import ProductPopup from './ProductPopup.js';
+import { Button } from 'reactstrap';
 
 const products = [
   {
@@ -161,8 +162,8 @@ class Mix extends Component {
           <div className="product__label-div">
             <FormattedMessage id={products.label} />
           </div>
-          <div className="product__button-div">
-            <ProductPopup product={products} />
+          <div className="product__button-div gold-div">
+            <FormattedMessage id={products.btnLabel} />
           </div>
         </div>
       </div>
@@ -172,8 +173,11 @@ class Mix extends Component {
       <div className="container center-container products__div">
         <div className="col-xs-12 col-sm-9 col-md-3 products__left-div">
           <h1>
-            <FormattedMessage id="products.mix.title" /><br/>//
+            <FormattedMessage id="products.mix.title" />
           </h1>
+          <h3>//</h3>
+          <br/>
+          <br/>
           <p>
             <FormattedMessage id="products.mix.p1" /><br/>-
           </p>

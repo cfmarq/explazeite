@@ -1,8 +1,9 @@
 body {
-  font-family: $font-primary;
-  background: $lighter-grey;
+  font-family: $font-secondary;
+  background: $white;
   color: $dark-grey;
   display: flex;
+  overflow-x: hidden;
 }
 
 #root{
@@ -29,6 +30,9 @@ a {
   float: right;
 }
 
+.right {
+  text-align: right;
+}
 .center {
   text-align: center;
 }
@@ -37,19 +41,19 @@ a {
   margin-top: 20px;
 }
 
+.pr15 {
+  padding-right: 15px !important;
+}
+
+.pl15 {
+  padding-left: 15px !important;
+}
+
 .center-container {
-	margin-top: 0px;
+	margin-top: 14px;
   margin-bottom: 100px;
 }
 
 .inline-block {
   display: inline-block;
-}
-
-.bold {
-  font-weight: 600;
-}
-
-.light {
-  font-weight: 300;
 }

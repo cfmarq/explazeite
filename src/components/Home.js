@@ -3,18 +3,18 @@ import { UncontrolledCarousel } from 'reactstrap';
 
 const items = [
   {
-    src: '/public/images/carousel/carousel1.png',
+    src: '/public/images/carousel/carousel-1.png',
     altText: '',
     caption: ''
   },
   {
-    src: '/public/images/carousel/carousel2.png',
+    src: '/public/images/carousel/carousel-2.png',
   },
   {
-    src: '/public/images/carousel/carousel3.png',
+    src: '/public/images/carousel/carousel-3.png',
   },
   {
-    src: '/public/images/carousel/carousel4.png',
+    src: '/public/images/carousel/carousel-4.png',
   }
 ];
 

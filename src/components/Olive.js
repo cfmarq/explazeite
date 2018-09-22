@@ -57,27 +57,18 @@ const products = [
 class Olive extends Component {
   render (){
     const product = products.map((products) =>
-      <div className="col-xs-12 col-sm-6 col-md-4 product__outer-div" key={products.id}>
-        <div className="product-div">
-          <div className="product__upper-div">
-            <img src={products.imgTN} alt=""  />
-          </div>
-          <div className="product__label-div">
-            <FormattedMessage id={products.label} />
-          </div>
-          <div className="product__button-div">
-            <ProductPopup product={products} />
-          </div>
-        </div>
-      </div>
+      <ProductPopup product={products} />
     );
 
     return (
       <div className="container center-container products__div">
         <div className="col-xs-12 col-sm-9 col-md-3 products__left-div">
           <h1>
-            <FormattedMessage id="products.olive.title" /><br/>//
+            <FormattedMessage id="products.olive.title" />
           </h1>
+          <h3>//</h3>
+          <br/>
+          <br/>
           <h3>
             <FormattedMessage id="products.olive.benefits" /><br/>-
           </h3>

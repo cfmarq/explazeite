@@ -22,29 +22,37 @@ class ProductPopup extends Component {
   render (){
 
     return (
-      <div className="product__button-div">
-        <Button className="btn-gold btn-product" onClick={this.toggle}>
-          <FormattedMessage id={this.props.product.btnLabel} />
-        </Button>
-        <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}></ModalHeader>
-          <ModalBody>
-            <div className="col-md-4 popup__img-div">
-              <img src={this.props.product.imgPP} alt=""  />
-            </div>
-            <div className="col-md-8 popup__text-div">
-              <div className="product__popup-header">
-                <h5 className="popup-h5"><FormattedMessage className="product__popup-title" id={this.props.product.popupTitle} /></h5>
-                <h6 className="popup-h6 light"><FormattedMessage className="product__popup-subtitle" id={this.props.product.popupSubtitle} /></h6>
+      <div className="col-xs-12 col-sm-6 col-md-4 product__outer-div" key={this.props.product.id} onClick={this.toggle}>
+        <div className="product-div">
+          <div className="product__upper-div">
+            <img src={this.props.product.imgTN} alt=""  />
+          </div>
+          <div className="product__label-div">
+            <FormattedMessage id={this.props.product.label} />
+          </div>
+          <div className="product__button-div">
+            <FormattedMessage id={this.props.product.btnLabel} />
+          </div>
+          <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+            <ModalHeader toggle={this.toggle}></ModalHeader>
+            <ModalBody>
+              <div className="col-md-4 popup__img-div">
+                <img src={this.props.product.imgPP} alt=""  />
               </div>
-              <div className="product__popup-body">
-                <p className="popup-text bold"><FormattedMessage id={this.props.product.popupP1} /></p>
-                <p className="popup-text light"><FormattedMessage id={this.props.product.popupP2} /></p>
-                <p className="popup-text light"><FormattedMessage id={this.props.product.popupP3} /></p>
+              <div className="col-md-8 popup__text-div">
+                <div className="product__popup-header">
+                  <h5 className="popup-h5"><FormattedMessage className="product__popup-title" id={this.props.product.popupTitle} /></h5>
+                  <h6 className="popup-h6 light"><FormattedMessage className="product__popup-subtitle" id={this.props.product.popupSubtitle} /></h6>
+                </div>
+                <div className="product__popup-body">
+                  <p className="popup-text bold"><FormattedMessage id={this.props.product.popupP1} /></p>
+                  <p className="popup-text light"><FormattedMessage id={this.props.product.popupP2} /></p>
+                  <p className="popup-text light"><FormattedMessage id={this.props.product.popupP3} /></p>
+                </div>
               </div>
-            </div>
-          </ModalBody>
-        </Modal>
+            </ModalBody>
+          </Modal>
+        </div>
       </div>
     );
   }

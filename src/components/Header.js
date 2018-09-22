@@ -41,7 +41,7 @@ export default class Header extends Component {
                 <DropdownToggle nav caret>
                   <FormattedMessage id="navbar.about" />
                 </DropdownToggle>
-                <DropdownMenu right>
+                <DropdownMenu left>
                   <DropdownItem>
                     <NavLink href="/history">
                       <FormattedMessage id="navbar.history" />
@@ -64,7 +64,7 @@ export default class Header extends Component {
                 <DropdownToggle nav caret>
                   <FormattedMessage id="navbar.products" />
                 </DropdownToggle>
-                <DropdownMenu right>
+                <DropdownMenu left>
                   <DropdownItem>
                     <NavLink href="/products-oliveOil">
                       <FormattedMessage id="navbar.olive-oil" />

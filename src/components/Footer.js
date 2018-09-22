@@ -4,9 +4,9 @@ import { FormattedMessage } from 'react-intl';
 const Footer= () => {
   return (
     <div className="footer__div">
-		  <div className="container footer-display">
+		  <div className="container footer-display no-padding">
 
-        <div className="col-sm-12 col-md-8 footer__div-left">
+        <div className="col-sm-12 col-md-8 footer__div-left no-padding">
   				<span className="footer_regular">
             <FormattedMessage id="footer.feedback" />
           </span>
@@ -16,8 +16,8 @@ const Footer= () => {
           </span>
   			</div>
 
-  			<div className="col-sm-12 col-md-4 footer__div-right">
-  				<div className="footer_div floating_margin_left">
+  			<div className="col-sm-12 col-md-4 footer__div-right no-padding">
+  				<div className="footer_div">
   					<div className="float-left">
   						<span className="footer_regular">
                 <FormattedMessage id="footer.follow" />
@@ -29,11 +29,11 @@ const Footer= () => {
                 <img className="footer_img" src="/public/images/footer/footer_insta.png" height="35px" />
               </a>
   					</div>
-  					<div className="float_right">
+  					<div className="float_right right">
   						<img className="/public/footer_img" src="/public/images/footer/footer_selo.png" width="80px"/>
   					</div>
   				</div>
-  				<div className="floating_margin_left mt20">
+  				<div className="mt20 no-padding">
   					<span className="footer_copyright">
               <FormattedMessage id="footer.copyright" />
             </span>
