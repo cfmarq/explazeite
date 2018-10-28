@@ -3,7 +3,6 @@ body {
   background: $white;
   color: $dark-grey;
   display: flex;
-  overflow-x: hidden;
 }
 
 #root{
@@ -16,6 +15,10 @@ a {
 
 .no-padding {
   padding: 0px;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 .flex {
@@ -42,11 +45,11 @@ a {
 }
 
 .pr15 {
-  padding-right: 15px !important;
+  padding-right: 15px;
 }
 
 .pl15 {
-  padding-left: 15px !important;
+  padding-left: 15px;
 }
 
 .center-container {
@@ -56,4 +59,28 @@ a {
 
 .inline-block {
   display: inline-block;
+}
+
+button:focus {outline:0;}
+
+@media(max-width: 575px){
+  .hidden-xs {
+    display: none;
+  }
+
+  .carousel {
+    margin-bottom: 75px;
+  }
+
+  .pr15 {
+    padding-right: 0px;
+  }
+  .pl15 {
+    padding-left: 0px;
+  }
+
+  .map {
+    margin-bottom: 50px;
+  }
+
 }

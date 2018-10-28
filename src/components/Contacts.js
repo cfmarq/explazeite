@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
+import { Row, Col } from 'reactstrap';
+
 import {
   withScriptjs,
   withGoogleMap,
@@ -31,10 +33,11 @@ const MyMapComponent = compose(
 class Contacts extends Component {
   render() {
     return (
-      <div>
-        <div className="container center-container">
-          <div className="box-container">
-            <div className="col-xs-12 col-sm-6 col-md-6 contacts-div pr15">
+
+      <div className="container center-container">
+        <Row>
+          <Col xs="12" sm="6" md="6">
+            <div className="contacts-div pr15">
               <h2><FormattedMessage id="contacts.where-are-we" /></h2>
               <div className="contacts-borderbox pr15">
                 <p>
@@ -56,8 +59,9 @@ class Contacts extends Component {
                 </p>
               </div>
             </div>
-
-            <div className="col-xs-12 col-sm-6 col-md-6 contacts-div pl15">
+          </Col>
+          <Col xs="12" sm="6" md="6">
+            <div className="contacts-div pl15">
               <h2><FormattedMessage id="contacts.reach-us" /><br/></h2>
               <div className="contacts-borderbox pr15">
                 <p>
@@ -80,38 +84,40 @@ class Contacts extends Component {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 contacts-div">
-            <img className="contacts-img" src="/public/images/contactos.png" alt="" />
-          </div>
-
-
-
-          <div className="flex ">
-            <div className="col-xs-12 col-sm-12 col-md-6 no-padding pr15">
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="12" sm="12" md="12">
+            <div className="contacts-div">
+              <img className="contacts-img" src="/public/images/contactos.png" alt="" />
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="12" sm="6" md="6">
+            <div className="no-padding pr15 map">
               <h2><FormattedMessage id="contacts.map" /><br/></h2>
               <MyMapComponent key="map" />
-
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6">
-              <h2><FormattedMessage id="contacts.schedule" /><br/></h2>
-              <div className="featured-borderbox">
-                <p>
-                  <FormattedMessage id="contacts.p1" /><br/>
-                  <FormattedMessage id="contacts.p2" />
-                </p>
-                <p>
-                  <FormattedMessage id="contacts.p3" /><br/>
-                  <FormattedMessage id="contacts.p4" />
-                </p>
-                <p>//<br/>
-                  <FormattedMessage id="contacts.p5" /><br/>
-                  <FormattedMessage id="contacts.p6" />
-                </p>
-              </div>
+          </Col>
+          <Col xs="12" sm="6" md="6">
+            <h2><FormattedMessage id="contacts.schedule" /><br/></h2>
+            <div className="featured-borderbox">
+              <p>
+                <FormattedMessage id="contacts.p1" /><br/>
+                <FormattedMessage id="contacts.p2" />
+              </p>
+              <p>
+                <FormattedMessage id="contacts.p3" /><br/>
+                <FormattedMessage id="contacts.p4" />
+              </p>
+              <p>//<br/>
+                <FormattedMessage id="contacts.p5" /><br/>
+                <FormattedMessage id="contacts.p6" />
+              </p>
             </div>
-          </div>
-        </div>
+          </Col>
+        </Row>
       </div>
     );
   }

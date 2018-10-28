@@ -1,11 +1,12 @@
-a.nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: $lighter-gold;
   padding:0px !important;
   font-size: 20px;
 
-  &:hover{
+  &:hover, &:focus{
     color: $gold;
   }
+
 }
 
 .navbar {
@@ -17,9 +18,13 @@ a.nav-link {
 }
 
 .collapse, .navbar-collapse {
-  height: 120px;
+  margin-bottom: 25px;
 }
 
+.navbar-light .navbar-toggler{
+  color: $gold;
+  border: none;
+}
 .navbar-brand {
   width: 25%;
 }
@@ -34,6 +39,13 @@ a.nav-link {
 }
 .nav-item {
     margin: 0px 0px 0px 40px;
+    color: $lighter-gold;
+    padding:0px !important;
+    font-size: 20px;
+
+    &:hover{
+      color: $gold;
+    }
 }
 
 .dropdown-menu {
@@ -60,5 +72,5 @@ a.nav-link {
 }
 
 .dropdown-item > a.nav-link {
-  color: $white;
+  color: $white !important;
 }

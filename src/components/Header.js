@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse,Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink,
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink,
   UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 import { FormattedMessage } from 'react-intl';
@@ -21,16 +21,15 @@ export default class Header extends Component {
 
   render() {
     return (
+
       <div className="container">
-        <Navbar expand="md">
+        <Navbar color="white" light expand="md">
           <NavbarBrand href="/">
             <img className="nav-logo" src="/public/images/logo.png" alt="" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
-
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-
               <NavItem>
                 <NavLink href="/">
                   <FormattedMessage id="navbar.home" />
