@@ -18,7 +18,7 @@ a {
 }
 
 .no-margin {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .flex {
@@ -35,6 +35,9 @@ a {
 
 .right {
   text-align: right;
+}
+.left {
+  text-align: left;
 }
 .center {
   text-align: center;
@@ -84,6 +87,9 @@ button:focus {outline:0;}
     margin-bottom: 50px;
   }
 
+  .right {
+    text-align: left;
+  }
 }
 
 @media (max-width: 767px) {
@@ -91,4 +97,20 @@ button:focus {outline:0;}
     .container {
       max-width: none;
     }
+
+    .right {
+      text-align: left;
+    }
+}
+
+@media (max-width: 1169px) {
+    .right {
+      text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline-element-content {
+      padding: 0px !important;
+  }
 }
