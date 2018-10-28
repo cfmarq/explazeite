@@ -61,6 +61,7 @@ a {
   display: inline-block;
 }
 
+
 button:focus {outline:0;}
 
 @media(max-width: 575px){
@@ -83,4 +84,11 @@ button:focus {outline:0;}
     margin-bottom: 50px;
   }
 
+}
+
+@media (max-width: 767px) {
+
+    .container {
+      max-width: none;
+    }
 }

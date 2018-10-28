@@ -7,11 +7,13 @@
   display: inline-block;
   vertical-align: top;
   padding-right: 0px;
+  width: 100%;
 }
 
 .product__outer-div {
   padding: 5px;
   display: inline-block;
+  width: 100%;
 
   &:hover {
     opacity: 0.8;

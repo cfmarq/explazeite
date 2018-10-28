@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 import ProductPopup from './ProductPopup.js';
+import { Row, Col } from 'reactstrap';
 
 const products = [
   {
@@ -153,49 +154,55 @@ const products = [
 class Wine extends Component {
   render (){
     const product = products.map((products) =>
-      <ProductPopup product={products} />    
+      <ProductPopup product={products} />
     );
 
     return (
+
       <div className="container center-container products__div">
-        <div className="col-xs-12 col-sm-9 col-md-3 products__left-div">
-          <h1>
-            <FormattedMessage id="products.wine.title" />
-          </h1>
-          <h3>//</h3>
-          <br/>
-          <br/>
-          <h3>
-            <FormattedMessage id="products.wine.benefits" /><br/>-
-          </h3>
-          <p>
-            <FormattedMessage id="products.wine.benefits.p1" />
-          </p>
-          <p>
-            <FormattedMessage id="products.wine.benefits.p2" />
-          </p>
-          <p>
-            <FormattedMessage id="products.wine.benefits.p3" />
-          </p>
-          <p>
-            <FormattedMessage id="products.wine.benefits.p4" />
-          </p>
-          <h3>
-            <FormattedMessage id="products.wine.interest" /><br/>-
-          </h3>
-          <p>
-            <FormattedMessage id="products.wine.interest.p1" />
-          </p>
-          <p>
-            <FormattedMessage id="products.wine.interest.p2" />
-          </p>
-        </div>
-        <div className="col-xs-12 col-sm-9 col-md-9 products__right-div">
+        <Row>
+          <Col xs="12" sm="3" md="3">
+            <div className="products__left-div">
+              <h1>
+                <FormattedMessage id="products.wine.title" />
+              </h1>
+              <h3>//</h3>
+              <br/>
+              <br/>
+              <h3>
+                <FormattedMessage id="products.wine.benefits" /><br/>-
+              </h3>
+              <p>
+                <FormattedMessage id="products.wine.benefits.p1" />
+              </p>
+              <p>
+                <FormattedMessage id="products.wine.benefits.p2" />
+              </p>
+              <p>
+                <FormattedMessage id="products.wine.benefits.p3" />
+              </p>
+              <p>
+                <FormattedMessage id="products.wine.benefits.p4" />
+              </p>
+              <h3>
+                <FormattedMessage id="products.wine.interest" /><br/>-
+              </h3>
+              <p>
+                <FormattedMessage id="products.wine.interest.p1" />
+              </p>
+              <p>
+                <FormattedMessage id="products.wine.interest.p2" />
+              </p>
+            </div>
+          </Col>
 
-          {product}
-
-        </div>
-    	</div>
+          <Col xs="12" sm="9" md="9">
+            <div className="products__right-div">
+              {product}
+            </div>
+          </Col>
+        </Row>
+      </div>
     );
   }
 }

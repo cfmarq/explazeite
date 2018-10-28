@@ -95,7 +95,7 @@ class Contacts extends Component {
         </Row>
         <Row>
           <Col xs="12" sm="6" md="6">
-            <div className="no-padding pr15 map">
+            <div className="no-padding map">
               <h2><FormattedMessage id="contacts.map" /><br/></h2>
               <MyMapComponent key="map" />
             </div>

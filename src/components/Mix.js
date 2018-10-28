@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 import ProductPopup from './ProductPopup.js';
-import { Button } from 'reactstrap';
+import { Button, Row, Col } from 'reactstrap';
 
 const products = [
   {
@@ -171,23 +171,28 @@ class Mix extends Component {
 
     return (
       <div className="container center-container products__div">
-        <div className="col-xs-12 col-sm-9 col-md-3 products__left-div">
-          <h1>
-            <FormattedMessage id="products.mix.title" />
-          </h1>
-          <h3>//</h3>
-          <br/>
-          <br/>
-          <p>
-            <FormattedMessage id="products.mix.p1" /><br/>-
-          </p>
-        </div>
-        <div className="col-xs-12 col-sm-9 col-md-9 products__right-div">
+        <Row>
+          <Col xs="12" sm="3" md="3">
+            <div className="products__left-div">
+              <h1>
+                <FormattedMessage id="products.mix.title" />
+              </h1>
+              <h3>//</h3>
+              <br/>
+              <br/>
+              <p>
+                <FormattedMessage id="products.mix.p1" /><br/>-
+              </p>
+            </div>
+          </Col>
 
-          {product}
-
-        </div>
-    	</div>
+          <Col xs="12" sm="9" md="9">
+            <div className="products__right-div">
+              {product}
+            </div>
+          </Col>
+        </Row>
+      </div>
     );
   }
 }
