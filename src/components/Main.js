@@ -23,7 +23,7 @@ const Main = () => {
     <div>
       <BrowserRouter>
         <div>
-          <Header/>
+          <Header />
           <Switch>
             <Route exact path={"/"} component={Home} />
             <Route path={"/history"} component={History} />

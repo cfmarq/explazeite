@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink,
+import { Button, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink,
   UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 import { FormattedMessage } from 'react-intl';
@@ -19,10 +19,28 @@ export default class Header extends Component {
     });
   }
 
+  /*
+  onChangeLanguage(lang){
+    switch (lang) {
+      case 'PT': messages = localeData.pt; break;
+      case 'EN': messages = localeData.en; break;
+      default: messages = localeData.pt; break;
+    }
+    this.setState({ locale: lang });
+    locale = lang;
+  }
+  */
+
   render() {
     return (
 
       <div className="container">
+        /*
+          <div className="language-switch">
+            <Button onClick={this.onChangeLanguage("PT")}>PT</Button> |
+            <Button onClick={this.onChangeLanguage("EN")}>EN</Button>
+          </div>
+        */
         <Navbar color="white" light expand="md">
           <NavbarBrand href="/">
             <img className="nav-logo" src="/public/images/logo.png" alt="" />
