@@ -70,7 +70,7 @@ const products = [
     imgPP: '/public/images/produtos/azeite/imagens_popup/p_azeite-6.png',
     label: 'products.oliveOil.p6.label',
     btnLabel: 'products.oliveOil.p6.button.label',
-    popupTitle: 'products.oliveOil.p66.popup.title',
+    popupTitle: 'products.oliveOil.p6.popup.title',
     popupSubtitle: 'products.oliveOil.p6.popup.subtitle',
     popupP1: 'products.oliveOil.p6.popup.p1',
     popupP2: 'products.oliveOil.p6.popup.p2',

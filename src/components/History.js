@@ -30,7 +30,6 @@ const History = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work no-margin"
-          iconStyle={{ background: '#BC933A', color: '#fff'}}
         >
           <h3 className="vertical-timeline-element-title left">
             <FormattedMessage id="history.item2.title" />
@@ -43,7 +42,6 @@ const History = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work no-margin"
-          iconStyle={{ background: '#BC933A', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title right">
             <FormattedMessage id="history.item3.title" />
@@ -71,7 +69,6 @@ const History = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work no-margin"
-          iconStyle={{ background: '#BC933A', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title right">
             <FormattedMessage id="history.item5.title" />
@@ -110,7 +107,6 @@ const History = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work no-margin"
-          iconStyle={{ background: '#BC933A', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title left">
             <FormattedMessage id="history.item8.title" />
@@ -147,7 +143,6 @@ const History = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work no-margin"
-          iconStyle={{ background: '#BC933A', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title right">
             <FormattedMessage id="history.item11.title" />
@@ -174,7 +169,6 @@ const History = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work no-margin"
-          iconStyle={{ background: '#BC933A', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title right">
             <FormattedMessage id="history.item13.title" />
@@ -198,7 +192,7 @@ const History = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work no-margin"
           iconStyle={{ background: '#BC933A', color: '#fff' }}
-          icon="2015"
+          icon="2017"
         >
           <h3 className="vertical-timeline-element-title right">
             <FormattedMessage id="history.item15.title" />

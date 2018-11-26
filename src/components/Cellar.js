@@ -4,18 +4,20 @@ import { FormattedMessage } from 'react-intl';
 
 const items = [
   {
-    src: '/public/images/lagar/lagar_1.png',
+    src: '/public/images/adega/adega_1.png',
     altText: '',
     caption: ''
   },
   {
-    src: '/public/images/lagar/lagar_2.png',
+    src: '/public/images/adega/adega_2.png',
   },
   {
-    src: '/public/images/lagar/lagar_3.png',
+    src: '/public/images/adega/adega_3.png',
+  },
+  {
+    src: '/public/images/adega/adega_4.png',
   }
 ];
-
 
 const Cellar = () => {
   return (
