@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "715b08104105722858d3"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "6309ddf9a7c64ac0e4af"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -41750,8 +41750,7 @@ var History = function History() {
       _react2.default.createElement(
         _reactVerticalTimelineComponent.VerticalTimelineElement,
         {
-          className: 'vertical-timeline-element--work no-margin',
-          iconStyle: { background: '#BC933A', color: '#fff' }
+          className: 'vertical-timeline-element--work no-margin'
         },
         _react2.default.createElement(
           'h3',
@@ -41771,8 +41770,7 @@ var History = function History() {
       _react2.default.createElement(
         _reactVerticalTimelineComponent.VerticalTimelineElement,
         {
-          className: 'vertical-timeline-element--work no-margin',
-          iconStyle: { background: '#BC933A', color: '#fff' }
+          className: 'vertical-timeline-element--work no-margin'
         },
         _react2.default.createElement(
           'h3',
@@ -41819,8 +41817,7 @@ var History = function History() {
       _react2.default.createElement(
         _reactVerticalTimelineComponent.VerticalTimelineElement,
         {
-          className: 'vertical-timeline-element--work no-margin',
-          iconStyle: { background: '#BC933A', color: '#fff' }
+          className: 'vertical-timeline-element--work no-margin'
         },
         _react2.default.createElement(
           'h3',
@@ -41884,8 +41881,7 @@ var History = function History() {
       _react2.default.createElement(
         _reactVerticalTimelineComponent.VerticalTimelineElement,
         {
-          className: 'vertical-timeline-element--work no-margin',
-          iconStyle: { background: '#BC933A', color: '#fff' }
+          className: 'vertical-timeline-element--work no-margin'
         },
         _react2.default.createElement(
           'h3',
@@ -41949,8 +41945,7 @@ var History = function History() {
       _react2.default.createElement(
         _reactVerticalTimelineComponent.VerticalTimelineElement,
         {
-          className: 'vertical-timeline-element--work no-margin',
-          iconStyle: { background: '#BC933A', color: '#fff' }
+          className: 'vertical-timeline-element--work no-margin'
         },
         _react2.default.createElement(
           'h3',
@@ -41992,8 +41987,7 @@ var History = function History() {
       _react2.default.createElement(
         _reactVerticalTimelineComponent.VerticalTimelineElement,
         {
-          className: 'vertical-timeline-element--work no-margin',
-          iconStyle: { background: '#BC933A', color: '#fff' }
+          className: 'vertical-timeline-element--work no-margin'
         },
         _react2.default.createElement(
           'h3',
@@ -42037,7 +42031,7 @@ var History = function History() {
         {
           className: 'vertical-timeline-element--work no-margin',
           iconStyle: { background: '#BC933A', color: '#fff' },
-          icon: '2015'
+          icon: '2017'
         },
         _react2.default.createElement(
           'h3',
@@ -47747,15 +47741,13 @@ var _reactIntl = __webpack_require__(2);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var items = [{
-  src: '/public/images/adega/adega_1.png',
+  src: '/public/images/lagar/lagar_1.png',
   altText: '',
   caption: ''
 }, {
-  src: '/public/images/adega/adega_2.png'
+  src: '/public/images/lagar/lagar_2.png'
 }, {
-  src: '/public/images/adega/adega_3.png'
-}, {
-  src: '/public/images/adega/adega_4.png'
+  src: '/public/images/lagar/lagar_3.png'
 }];
 
 var Mill = function Mill() {
@@ -47846,13 +47838,15 @@ var _reactIntl = __webpack_require__(2);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var items = [{
-  src: '/public/images/lagar/lagar_1.png',
+  src: '/public/images/adega/adega_1.png',
   altText: '',
   caption: ''
 }, {
-  src: '/public/images/lagar/lagar_2.png'
+  src: '/public/images/adega/adega_2.png'
 }, {
-  src: '/public/images/lagar/lagar_3.png'
+  src: '/public/images/adega/adega_3.png'
+}, {
+  src: '/public/images/adega/adega_4.png'
 }];
 
 var Cellar = function Cellar() {
@@ -48689,7 +48683,7 @@ var products = [{
   imgPP: '/public/images/produtos/azeite/imagens_popup/p_azeite-6.png',
   label: 'products.oliveOil.p6.label',
   btnLabel: 'products.oliveOil.p6.button.label',
-  popupTitle: 'products.oliveOil.p66.popup.title',
+  popupTitle: 'products.oliveOil.p6.popup.title',
   popupSubtitle: 'products.oliveOil.p6.popup.subtitle',
   popupP1: 'products.oliveOil.p6.popup.p1',
   popupP2: 'products.oliveOil.p6.popup.p2',
@@ -49721,42 +49715,12 @@ var Header = function (_Component) {
         isOpen: !this.state.isOpen
       });
     }
-
-    /*
-    onChangeLanguage(lang){
-      switch (lang) {
-        case 'PT': messages = localeData.pt; break;
-        case 'EN': messages = localeData.en; break;
-        default: messages = localeData.pt; break;
-      }
-      this.setState({ locale: lang });
-      locale = lang;
-    }
-    */
-
   }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
         'div',
         { className: 'container' },
-        '/*',
-        _react2.default.createElement(
-          'div',
-          { className: 'language-switch' },
-          _react2.default.createElement(
-            _reactstrap.Button,
-            { onClick: this.onChangeLanguage("PT") },
-            'PT'
-          ),
-          ' |',
-          _react2.default.createElement(
-            _reactstrap.Button,
-            { onClick: this.onChangeLanguage("EN") },
-            'EN'
-          )
-        ),
-        '*/',
         _react2.default.createElement(
           _reactstrap.Navbar,
           { color: 'white', light: true, expand: 'md' },
@@ -49935,65 +49899,69 @@ var Footer = function Footer() {
     'div',
     { className: 'footer__div' },
     _react2.default.createElement(
-      _reactstrap.Row,
-      { className: 'no-margin' },
+      'div',
+      { className: 'container no-padding' },
       _react2.default.createElement(
-        _reactstrap.Col,
-        { xs: '12', sm: '8', md: '8' },
+        _reactstrap.Row,
+        { className: 'no-margin' },
         _react2.default.createElement(
-          'div',
-          { className: 'footer__div-left no-padding' },
-          _react2.default.createElement(
-            'span',
-            { className: 'footer_regular' },
-            _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'footer.feedback' })
-          ),
-          _react2.default.createElement('br', null),
-          _react2.default.createElement(
-            'span',
-            { className: 'footer_light' },
-            _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'footer.contact' })
-          )
-        )
-      ),
-      _react2.default.createElement(
-        _reactstrap.Col,
-        { xs: '12', sm: '4', md: '4' },
-        _react2.default.createElement(
-          'div',
-          { className: 'footer__div-right no-padding' },
+          _reactstrap.Col,
+          { xs: '12', sm: '8', md: '8' },
           _react2.default.createElement(
             'div',
-            { className: 'float-left' },
+            { className: 'footer__div-left no-padding' },
             _react2.default.createElement(
               'span',
               { className: 'footer_regular' },
-              _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'footer.follow' })
+              _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'footer.feedback' })
             ),
             _react2.default.createElement('br', null),
             _react2.default.createElement(
-              'a',
-              { href: 'https://www.facebook.com/explazeite/', target: '_blank' },
-              _react2.default.createElement('img', { className: 'footer_img', src: '/public/images/footer/footer_face.png', height: '35px' })
+              'span',
+              { className: 'footer_light' },
+              _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'footer.contact' })
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _reactstrap.Col,
+          { xs: '12', sm: '4', md: '4' },
+          _react2.default.createElement(
+            'div',
+            { className: 'footer__div-right no-padding' },
+            _react2.default.createElement(
+              'div',
+              { className: 'float-left' },
+              _react2.default.createElement(
+                'span',
+                { className: 'footer_regular' },
+                _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'footer.follow' })
+              ),
+              _react2.default.createElement('br', null),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://www.facebook.com/explazeite/', target: '_blank' },
+                _react2.default.createElement('img', { className: 'footer_img', src: '/public/images/footer/footer_face.png', height: '35px' })
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://www.instagram.com/explazeite/', target: '_blank' },
+                _react2.default.createElement('img', { className: 'footer_img', src: '/public/images/footer/footer_insta.png', height: '35px' })
+              )
             ),
             _react2.default.createElement(
-              'a',
-              { href: 'https://www.instagram.com/explazeite/', target: '_blank' },
-              _react2.default.createElement('img', { className: 'footer_img', src: '/public/images/footer/footer_insta.png', height: '35px' })
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'float_right right' },
-            _react2.default.createElement('img', { className: '/public/footer_img', src: '/public/images/footer/footer_selo.png', width: '80px' })
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'mt20 no-padding' },
+              'div',
+              { className: 'float_right right' },
+              _react2.default.createElement('img', { className: '/public/footer_img', src: '/public/images/footer/footer_selo.png', width: '80px' })
+            ),
             _react2.default.createElement(
-              'span',
-              { className: 'footer_copyright' },
-              _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'footer.copyright' })
+              'div',
+              { className: 'mt20 no-padding' },
+              _react2.default.createElement(
+                'span',
+                { className: 'footer_copyright' },
+                _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'footer.copyright' })
+              )
             )
           )
         )
