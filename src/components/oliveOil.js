@@ -126,7 +126,6 @@ const products = [
   }
 ];
 
-
 class OliveOil extends Component {
   render (){
     const product = products.map((products) =>
@@ -142,7 +141,7 @@ class OliveOil extends Component {
               <h1>
                 <FormattedMessage id="products.oliveOil.title" />
               </h1>
-              <h3>// </h3>
+              <h3>//</h3>
               <br/>
               <br/>
               <h3>
