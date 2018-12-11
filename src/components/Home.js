@@ -15,6 +15,9 @@ const items = [
   },
   {
     src: '/public/images/carousel/carousel-4.png',
+  },
+  {
+    src: '/public/images/carousel/carousel-5.png',
   }
 ];
 

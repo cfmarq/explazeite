@@ -149,7 +149,7 @@ const History = () => {
           </h3>
           <div className="history-img-div">
             <div className="col-md-12 no-padding">
-              <img className="history-img" src="/public/images/historia/crono_8.png" alt="" />
+              <img className="history-img" src="/public/images/historia/crono_9.png" alt="" />
             </div>
           </div>
         </VerticalTimelineElement>
@@ -163,7 +163,7 @@ const History = () => {
           </h3>
           <div className="history-img-div">
             <div className="col-md-12 no-padding">
-              <img className="history-img" src="/public/images/historia/crono_9.png" alt="" />
+              <img className="history-img" src="/public/images/historia/crono_10.png" alt="" />
             </div>
           </div>
         </VerticalTimelineElement>
@@ -199,7 +199,7 @@ const History = () => {
           </h3>
           <div className="history-img-div">
             <div className="col-md-12 no-padding">
-              <img className="history-img" src="/public/images/historia/crono_10.png" alt="" />
+              <img className="history-img" src="/public/images/historia/crono_11.png" alt="" />
             </div>
           </div>
         </VerticalTimelineElement>
