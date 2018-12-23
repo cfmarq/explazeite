@@ -22,6 +22,6 @@ const items = [
 ];
 
 
-const Home = () => <div className="center-container"><UncontrolledCarousel items={items} pause="false" /></div>;
+const Home = () => <div className="center-container"><UncontrolledCarousel className="home-carousel" items={items} pause="false" /></div>;
 
 export default Home;
