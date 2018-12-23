@@ -82,6 +82,27 @@ const Featured = () => {
             </div>
           </div>
         </Col>
+        <Col xs="12" sm="6" md="4">
+          <div className="featured__outer-box">
+            <div className="featured__inner-box">
+              <div className="featured__img-div">
+                <img className="featured__img" src="/public/images/destaques/apanha1.png" alt="" />
+              </div>
+              <div className="featured__label">
+                <div className="col-md-8 featured__label--text">
+                  <p className="subtitle"><FormattedMessage id="featured.item4.label" /></p>
+                </div>
+                <div className="col-md-4 featured__label--button">
+                  <Link to="/featured-4">
+                    <Button className="btn-gold">
+                      <FormattedMessage id="buttons.read-more" />
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Col>
       </Row>
     </div>
   )

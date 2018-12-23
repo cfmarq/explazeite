@@ -173,7 +173,7 @@ class Mix extends Component {
       <div className="container center-container products__div">
         <Row>
           <Col xs="12" sm="3" md="3">
-            <div className="products__left-div">
+            <div className="products__left-div hidden-xs">
               <h1>
                 <FormattedMessage id="products.mix.title" />
               </h1>
@@ -189,6 +189,20 @@ class Mix extends Component {
           <Col xs="12" sm="9" md="9">
             <div className="products__right-div">
               {product}
+            </div>
+          </Col>
+
+          <Col xs="12" sm="3" md="3">
+            <div className="products__left-div visible-xs">
+              <h1>
+                <FormattedMessage id="products.mix.title" />
+              </h1>
+              <h3>//</h3>
+              <br/>
+              <br/>
+              <p>
+                <FormattedMessage id="products.mix.p1" /><br/>-
+              </p>
             </div>
           </Col>
         </Row>

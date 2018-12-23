@@ -162,7 +162,7 @@ class Wine extends Component {
       <div className="container center-container products__div">
         <Row>
           <Col xs="12" sm="3" md="3">
-            <div className="products__left-div">
+            <div className="products__left-div hidden-xs">
               <h1>
                 <FormattedMessage id="products.wine.title" />
               </h1>
@@ -199,6 +199,41 @@ class Wine extends Component {
           <Col xs="12" sm="9" md="9">
             <div className="products__right-div">
               {product}
+            </div>
+          </Col>
+
+          <Col xs="12" sm="3" md="3">
+            <div className="products__left-div visible-xs">
+              <h1>
+                <FormattedMessage id="products.wine.title" />
+              </h1>
+              <h3>//</h3>
+              <br/>
+              <br/>
+              <h3>
+                <FormattedMessage id="products.wine.benefits" /><br/>-
+              </h3>
+              <p>
+                <FormattedMessage id="products.wine.benefits.p1" />
+              </p>
+              <p>
+                <FormattedMessage id="products.wine.benefits.p2" />
+              </p>
+              <p>
+                <FormattedMessage id="products.wine.benefits.p3" />
+              </p>
+              <p>
+                <FormattedMessage id="products.wine.benefits.p4" />
+              </p>
+              <h3>
+                <FormattedMessage id="products.wine.interest" /><br/>-
+              </h3>
+              <p>
+                <FormattedMessage id="products.wine.interest.p1" />
+              </p>
+              <p>
+                <FormattedMessage id="products.wine.interest.p2" />
+              </p>
             </div>
           </Col>
         </Row>

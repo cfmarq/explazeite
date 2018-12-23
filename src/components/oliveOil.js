@@ -137,7 +137,7 @@ class OliveOil extends Component {
       <div className="container center-container products__div">
         <Row>
           <Col xs="12" sm="3" md="3">
-            <div className="products__left-div">
+            <div className="products__left-div hidden-xs">
               <h1>
                 <FormattedMessage id="products.oliveOil.title" />
               </h1>
@@ -165,6 +165,32 @@ class OliveOil extends Component {
           <Col xs="12" sm="9" md="9">
             <div className="products__right-div">
               {product}
+            </div>
+          </Col>
+
+          <Col xs="12" sm="3" md="3">
+            <div className="products__left-div visible-xs">
+              <h1>
+                <FormattedMessage id="products.oliveOil.title" />
+              </h1>
+              <h3>//</h3>
+              <br/>
+              <br/>
+              <h3>
+                <FormattedMessage id="products.oliveOil.benefits" /><br/>-
+              </h3>
+              <p>
+                <FormattedMessage id="products.oliveOil.benefits.p1" />
+              </p>
+              <p>
+                <FormattedMessage id="products.oliveOil.benefits.p2" />
+              </p>
+              <h3>
+                <FormattedMessage id="products.oliveOil.interest" /><br/>-
+              </h3>
+              <p>
+                <FormattedMessage id="products.oliveOil.interest.p1" />
+              </p>
             </div>
           </Col>
         </Row>

@@ -34,7 +34,7 @@ const Footer= () => {
                 </a>
               </div>
               <div className="float_right right">
-                <img className="/public/footer_img" src="/public/images/footer/footer_selo.png" width="80px"/>
+                <img className="footer_img" src="/public/images/footer/footer_selo.png" width="80px"/>
               </div>
               <div className="mt20 no-padding">
                 <span className="footer_copyright">

@@ -9,6 +9,7 @@ import Featured from './Featured';
 import FeaturedItem1 from './FeaturedItem1';
 import FeaturedItem2 from './FeaturedItem2';
 import FeaturedItem3 from './FeaturedItem3';
+import FeaturedItem4 from './FeaturedItem4';
 import OliveOil from './OliveOil';
 import Wine from './Wine';
 import Olive from './Olive';
@@ -33,6 +34,7 @@ const Main = () => {
             <Route path={"/featured-1"} component={FeaturedItem1} />
             <Route path={"/featured-2"} component={FeaturedItem2} />
             <Route path={"/featured-3"} component={FeaturedItem3} />
+            <Route path={"/featured-4"} component={FeaturedItem4} />
             <Route path={"/products-oliveOil"} component={OliveOil} />
             <Route path={"/products-wine"} component={Wine} />
             <Route path={"/products-olive"} component={Olive} />

@@ -34,10 +34,10 @@ a {
 }
 
 .right {
-  text-align: right;
+  text-align: right !important;
 }
 .left {
-  text-align: left;
+  text-align: left !important;
 }
 .center {
   text-align: center;
@@ -72,12 +72,24 @@ a {
   display: inline-block;
 }
 
+.visible-xs {
+  display: none !important;
+}
+
+.hidden-xs {
+  display: block !important;
+}
 
 button:focus {outline:0;}
 
 @media(max-width: 575px){
   .hidden-xs {
-    display: none;
+    display: none !important;
+  }
+
+  .visible-xs {
+    display: block !important;
+    margin-top: 40px;
   }
 
   .carousel {
@@ -95,29 +107,53 @@ button:focus {outline:0;}
     margin-bottom: 50px;
   }
 
-  .right {
+  .left {
     text-align: left;
+  }
+
+  span.vertical-timeline-element-icon.bounce-in{
+    font-size: 10px;
+    top: 0;
+    padding: 15px 8px;
   }
 }
 
 @media (max-width: 767px) {
 
-    .container {
-      max-width: none;
-    }
+  .container {
+    max-width: none;
+  }
 
-    .right {
-      text-align: left;
-    }
+  .right {
+    text-align: left;
+  }
+
+  span.vertical-timeline-element-icon.bounce-in{
+    font-size: 12px;
+    top: 0;
+    padding: 15px 8px;
+  }
 }
 
 @media (max-width: 1169px) {
-    .right {
-      text-align: left;
-    }
+
+  .right {
+    text-align: left;
+  }
+
+  span.vertical-timeline-element-icon.bounce-in{
+    font-size: 12px;
+    top: 0;
+    padding: 15px 8px;
+  }
 }
 
 @media only screen and (min-width: 1170px) {
+
+  .visible-xs {
+    display: none !important;
+  }
+
   .vertical-timeline-element-content {
       padding: 0px !important;
   }
