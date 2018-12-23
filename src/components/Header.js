@@ -18,10 +18,9 @@ export default class Header extends Component {
       isOpen: !this.state.isOpen
     });
   }
-  
+
   render() {
     return (
-
       <div className="container">
         <Navbar color="white" light expand="md">
           <NavbarBrand href="/">
@@ -101,6 +100,17 @@ export default class Header extends Component {
               <NavItem>
                 <NavLink href="/contacts">
                   <FormattedMessage id="navbar.contacts" />
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink className="grey-nav-link" onClick={this.props.switchToPortuguese}>
+                  PT
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="grey-nav-link" onClick={this.props.switchToEnglish}>
+                  EN
                 </NavLink>
               </NavItem>
             </Nav>

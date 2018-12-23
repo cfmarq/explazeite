@@ -47,6 +47,10 @@
     &:hover{
       color: $gold;
     }
+
+    &:last-child {
+      margin-left: 10px;
+    }
 }
 
 .dropdown-menu {
@@ -81,4 +85,32 @@
   font-weight: lighter;
   text-align: right;
   width: 100%;
+}
+
+.grey-nav-link {
+  cursor: pointer;
+  color: $dark-grey !important;
+
+  &:hover {
+    color: $darkest-grey !important;
+  }
+}
+
+@media(max-width: 575px){
+  .nav-item {
+      margin: 0px 0px 0px 10px;
+      border-bottom: 1px solid $gold;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-item {
+      margin: 0px 0px 0px 10px;
+      border-bottom: 1px solid $gold;
+      width: 150px
+  }
+
+  .nav-link {
+    margin: 5px;
+  }
 }
