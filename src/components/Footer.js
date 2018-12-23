@@ -8,7 +8,7 @@ const Footer= () => {
     <div className="footer__div">
       <div className="container no-padding">
         <Row className="no-margin">
-          <Col xs="12" sm="8" md="8">
+          <Col xs="12" sm="8" md="8" className="hidden-xs">
             <div className="footer__div-left no-padding">
               <span className="footer_regular">
                 <FormattedMessage id="footer.feedback" />
