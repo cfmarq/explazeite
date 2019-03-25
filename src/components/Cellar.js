@@ -19,33 +19,39 @@ const items = [
   }
 ];
 
-const Cellar = () => {
-  return (
+class Cellar extends Component {
+  constructor(props) {
+    super(props);
+  }
 
-    <div className="center-container container">
-      <Row>
-        <Col xs="12" sm="12" md="6">
-          <div className="left-box">
-            <h1><FormattedMessage id="cellar.title" /><br/>//</h1>
-            <p><FormattedMessage id="cellar.p1" /></p>
-            <p><FormattedMessage id="cellar.p2" /></p>
-            <p><FormattedMessage id="cellar.p3" /></p>
-            <p><FormattedMessage id="cellar.p4" /></p>
-          </div>
-        </Col>
-        <Col sm="12" md="6" className="hidden-xs">
-          <div className="no-padding" id="lagar">
-            <img className="right-box" src="/public/images/adega/vinha.png" alt="" />
-          </div>
-        </Col>
-      </Row>
-      <Row>
-        <Col xs="12" sm="12" md="12">
-          <UncontrolledCarousel items={items} pause="false" />
-        </Col>
-      </Row>
-    </div>
-  )
+  render() {
+    return (
+
+      <div className="center-container container">
+        <Row>
+          <Col xs="12" sm="12" md="6">
+            <div className="left-box">
+              <h1><FormattedMessage id="cellar.title" /><br/>//</h1>
+              <p><FormattedMessage id="cellar.p1" /></p>
+              <p><FormattedMessage id="cellar.p2" /></p>
+              <p><FormattedMessage id="cellar.p3" /></p>
+              <p><FormattedMessage id="cellar.p4" /></p>
+            </div>
+          </Col>
+          <Col sm="12" md="6" className="hidden-xs">
+            <div className="no-padding" id="lagar">
+              <img className="right-box" src="/public/images/adega/vinha.png" alt="" />
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="12" sm="12" md="12">
+            <UncontrolledCarousel items={items} pause="false" />
+          </Col>
+        </Row>
+      </div>
+    );
+  }
 }
 
 export default Cellar;
