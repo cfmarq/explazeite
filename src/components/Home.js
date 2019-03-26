@@ -8,16 +8,10 @@ const items = [
     caption: ''
   },
   {
-    src: '/public/images/carousel/carousel-2.png',
-  },
-  {
     src: '/public/images/carousel/carousel-3.png',
   },
   {
     src: '/public/images/carousel/carousel-4.png',
-  },
-  {
-    src: '/public/images/carousel/carousel-5.png',
   }
 ];
 
