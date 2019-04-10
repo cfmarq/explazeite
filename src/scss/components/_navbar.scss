@@ -101,6 +101,18 @@
       margin: 0px 0px 0px 10px;
       border-bottom: 1px solid $gold;
   }
+  .dropdown-item {
+    margin: 3px 0px;
+    background-color: transparent !important;
+
+    text-transform: uppercase;
+    font-weight: lighter;
+
+    & > a.nav-link {
+      font-size: 14px !important;
+      color: $dark-grey !important;
+    }
+  }
 }
 
 @media (max-width: 767px) {
