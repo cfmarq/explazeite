@@ -4,15 +4,32 @@ import { FormattedMessage } from 'react-intl';
 
 const items = [
   {
-    src: '/public/images/lagar/lagar_1.png',
+    src: '/public/images/lagar/default/lagar-1.png',
     altText: '',
     caption: ''
   },
   {
-    src: '/public/images/lagar/lagar_2.png',
+    src: '/public/images/lagar/default/lagar-2.png',
   },
   {
-    src: '/public/images/lagar/lagar_3.png',
+    src: '/public/images/lagar/default/lagar-3.png',
+  }
+];
+
+const items_mobile = [
+  {
+    src: '/public/images/lagar/mobile/lagar-1.png',
+    altText: '',
+    caption: ''
+  },
+  {
+    src: '/public/images/lagar/mobile/lagar-2.png',
+  },
+  {
+    src: '/public/images/lagar/mobile/lagar-3.png',
+  },
+  {
+    src: '/public/images/lagar/mobile/lagar-4.png',
   }
 ];
 
@@ -37,7 +54,8 @@ const Mill = () => {
       </Row>
       <Row>
         <Col xs="12" sm="12" md="12">
-          <UncontrolledCarousel items={items} pause="false" />
+          <UncontrolledCarousel className="hidden-xs" items={items} pause="false" />
+          <UncontrolledCarousel className="visible-xs" items={items_mobile} pause="false" />
         </Col>
       </Row>
     </div>

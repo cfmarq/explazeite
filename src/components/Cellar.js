@@ -4,18 +4,32 @@ import { FormattedMessage } from 'react-intl';
 
 const items = [
   {
-    src: '/public/images/adega/adega_1.png',
+    src: '/public/images/adega/default/adega-1.png',
     altText: '',
     caption: ''
   },
   {
-    src: '/public/images/adega/adega_2.png',
+    src: '/public/images/adega/default/adega-2.png',
   },
   {
-    src: '/public/images/adega/adega_3.png',
+    src: '/public/images/adega/default/adega-3.png',
   },
   {
-    src: '/public/images/adega/adega_4.png',
+    src: '/public/images/adega/default/adega-4.png',
+  }
+];
+
+const items_mobile = [
+  {
+    src: '/public/images/adega/mobile/adega-1.png',
+    altText: '',
+    caption: ''
+  },
+  {
+    src: '/public/images/adega/mobile/adega-2.png',
+  },
+  {
+    src: '/public/images/adega/mobile/adega-3.png',
   }
 ];
 
@@ -46,7 +60,8 @@ class Cellar extends Component {
         </Row>
         <Row>
           <Col xs="12" sm="12" md="12">
-            <UncontrolledCarousel items={items} pause="false" />
+            <UncontrolledCarousel className="hidden-xs" items={items} pause="false" />
+            <UncontrolledCarousel className="visible-xs" items={items_mobile} pause="false" />
           </Col>
         </Row>
       </div>
