@@ -8,6 +8,9 @@ const items = [
     caption: ''
   },
   {
+    src: '/public/images/carousel/default/carousel-2.jpg',
+  },
+  {
     src: '/public/images/carousel/default/carousel-3.png',
   },
   {
