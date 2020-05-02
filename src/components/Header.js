@@ -104,12 +104,12 @@ export default class Header extends Component {
               </NavItem>
 
               <NavItem>
-                <NavLink className="grey-nav-link" onClick={this.props.switchToPortuguese}>
+                <NavLink className="grey-nav-link" onClick={this.props.switchLang('portuguese')}>
                   PT
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="grey-nav-link" onClick={this.props.switchToEnglish}>
+                <NavLink className="grey-nav-link" onClick={this.props.switchLang('english')}>
                   EN
                 </NavLink>
               </NavItem>

@@ -31,8 +31,7 @@ class Main extends Component {
         <BrowserRouter>
           <div>
             <Header
-              switchToPortuguese={this.props.switchToPortuguese}
-              switchToEnglish={this.props.switchToEnglish} />
+              switchLang={this.props.switchLang} />
             <Switch>
               <Route exact path={"/"} component={Home} />
               <Route path={"/history"} component={History} />

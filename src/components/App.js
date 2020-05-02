@@ -21,26 +21,25 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    this.switchToEnglish = () =>
-      this.setState({ locale: "en-GB", messages: localeData.en });
-
-    this.switchToPortuguese = () =>
-      this.setState({ locale: "pt-PT", messages: localeData.pt });
-
     this.state = {
       locale: language,
-      messages: messages,
-      switchToEnglish: this.switchToEnglish,
-      switchToPortuguese: this.switchToPortuguese
+      messages: messages
     };
   }
+
+  switchLang = (lang) => {
+    if (lang === 'portuguese') {
+      this.setState({ locale: "pt-PT", messages: localeData.pt });
+    } else {
+      this.setState({ locale: "en-GB", messages: localeData.en });
+    }
+  };
 
   render() {
     return (
       <IntlProvider locale={this.state.locale} messages={this.state.messages}>
         <Main
-          switchToPortuguese={this.switchToPortuguese}
-          switchToEnglish={this.switchToEnglish} />
+          switchLang={this.switchLang} />
       </IntlProvider>
     );
   }
