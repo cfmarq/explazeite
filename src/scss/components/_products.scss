@@ -102,3 +102,24 @@ p.popup-text {
   padding: 6px 1px;
   text-align: center;
 }
+
+.add_item_div{
+  display: flex;
+}
+
+.price_div {
+  color: $gold;
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 10px;
+  width: 25%;
+  margin-right: 25px;
+}
+
+.price_label_div {
+  color: $gold;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  padding-top: 10px;
+}

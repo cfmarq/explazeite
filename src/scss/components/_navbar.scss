@@ -7,7 +7,6 @@
   &:hover, &:focus{
     color: $gold;
   }
-
 }
 
 .navbar {
@@ -38,6 +37,10 @@
 .nav-logo {
   max-width: 85%;
 }
+
+.cart_img {
+  width: 20px;
+}
 .nav-item {
     margin: 0px 0px 0px 40px;
     color: $lighter-gold;
@@ -48,9 +51,16 @@
       color: $gold;
     }
 
-    &:last-child {
-      margin-left: 10px;
-    }
+}
+
+.cart_badge {
+  background-color: purple;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  position: relative;
+  right: 8px;
 }
 
 .dropdown-menu {

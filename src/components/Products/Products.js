@@ -24,7 +24,7 @@ const Product = (props) => {
   }
 
   const productList = product.items.map((products) =>
-    <ProductPopup product={products} />
+    <ProductPopup product={products} url={props.match.params.id} />
   );
 
   return (

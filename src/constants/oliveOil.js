@@ -14,6 +14,7 @@ const texts = {
 const items = [
   {
     id: 1,
+    shortName: 'az_garr_250',
     imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-1.png',
     imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-1.png',
     label: 'products.oliveOil.p1.label',
@@ -22,10 +23,13 @@ const items = [
     popupSubtitle: 'products.oliveOil.p1.popup.subtitle',
     popupP1: 'products.oliveOil.p1.popup.p1',
     popupP2: 'products.oliveOil.p1.popup.p2',
-    popupP3: 'products.oliveOil.p1.popup.p3'
+    popupP3: 'products.oliveOil.p1.popup.p3',
+    price: '1,60',
+    weight: '500'
   },
   {
     id: 2,
+    shortName: 'az_garr_500',
     imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-2.png',
     imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-2.png',
     label: 'products.oliveOil.p2.label',
@@ -34,10 +38,13 @@ const items = [
     popupSubtitle: 'products.oliveOil.p2.popup.subtitle',
     popupP1: 'products.oliveOil.p2.popup.p1',
     popupP2: 'products.oliveOil.p2.popup.p2',
-    popupP3: 'products.oliveOil.p2.popup.p3'
+    popupP3: 'products.oliveOil.p2.popup.p3',
+    price: '3,65',
+    weight: '885'
   },
   {
     id: 3,
+    shortName: 'az_garr_750',
     imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-3.png',
     imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-3.png',
     label: 'products.oliveOil.p3.label',
@@ -46,10 +53,13 @@ const items = [
     popupSubtitle: 'products.oliveOil.p3.popup.subtitle',
     popupP1: 'products.oliveOil.p3.popup.p1',
     popupP2: 'products.oliveOil.p3.popup.p2',
-    popupP3: 'products.oliveOil.p3.popup.p3'
+    popupP3: 'products.oliveOil.p3.popup.p3',
+    price: '4,65',
+    weight: '1200'
   },
   {
     id: 4,
+    shortName: 'az_galh',
     imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-4.png',
     imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-4.png',
     label: 'products.oliveOil.p4.label',
@@ -58,10 +68,13 @@ const items = [
     popupSubtitle: 'products.oliveOil.p4.popup.subtitle',
     popupP1: 'products.oliveOil.p4.popup.p1',
     popupP2: 'products.oliveOil.p4.popup.p2',
-    popupP3: 'products.oliveOil.p4.popup.p3'
+    popupP3: 'products.oliveOil.p4.popup.p3',
+    price: '7,25',
+    weight: '1200'
   },
   {
     id: 5,
+    shortName: 'az_lata_500',
     imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-5.png',
     imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-5.png',
     label: 'products.oliveOil.p5.label',
@@ -70,10 +83,13 @@ const items = [
     popupSubtitle: 'products.oliveOil.p5.popup.subtitle',
     popupP1: 'products.oliveOil.p5.popup.p1',
     popupP2: 'products.oliveOil.p5.popup.p2',
-    popupP3: 'products.oliveOil.p5.popup.p3'
+    popupP3: 'products.oliveOil.p5.popup.p3',
+    price: '4,25',
+    weight: '580'
   },
   {
     id: 6,
+    shortName: 'az_garr_ve_2000',
     imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-6.png',
     imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-6.png',
     label: 'products.oliveOil.p6.label',
@@ -82,10 +98,13 @@ const items = [
     popupSubtitle: 'products.oliveOil.p6.popup.subtitle',
     popupP1: 'products.oliveOil.p6.popup.p1',
     popupP2: 'products.oliveOil.p6.popup.p2',
-    popupP3: 'products.oliveOil.p6.popup.p3'
+    popupP3: 'products.oliveOil.p6.popup.p3',
+    price: '8,25',
+    weight: '2000'
   },
   {
     id: 7,
+    shortName: 'az_garr_v_2000',
     imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-7.png',
     imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-7.png',
     label: 'products.oliveOil.p7.label',
@@ -94,10 +113,13 @@ const items = [
     popupSubtitle: 'products.oliveOil.p7.popup.subtitle',
     popupP1: 'products.oliveOil.p7.popup.p1',
     popupP2: 'products.oliveOil.p7.popup.p2',
-    popupP3: 'products.oliveOil.p7.popup.p3'
+    popupP3: 'products.oliveOil.p7.popup.p3',
+    price: '8,75',
+    weight: '2000'
   },
   {
     id: 8,
+    shortName: 'az_garr_ve_3000',
     imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-8.png',
     imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-8.png',
     label: 'products.oliveOil.p8.label',
@@ -106,31 +128,84 @@ const items = [
     popupSubtitle: 'products.oliveOil.p8.popup.subtitle',
     popupP1: 'products.oliveOil.p8.popup.p1',
     popupP2: 'products.oliveOil.p8.popup.p2',
-    popupP3: 'products.oliveOil.p8.popup.p3'
+    popupP3: 'products.oliveOil.p8.popup.p3',
+    price: '12,50',
+    weight: '3000'
   },
   {
     id: 9,
-    imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-9.png',
-    imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-9.png',
+    shortName: 'az_garr_ve_5000',
+    imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-8.png',
+    imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-8.png',
     label: 'products.oliveOil.p9.label',
     btnLabel: 'products.oliveOil.p9.button.label',
     popupTitle: 'products.oliveOil.p9.popup.title',
     popupSubtitle: 'products.oliveOil.p9.popup.subtitle',
     popupP1: 'products.oliveOil.p9.popup.p1',
     popupP2: 'products.oliveOil.p9.popup.p2',
-    popupP3: 'products.oliveOil.p9.popup.p3'
+    popupP3: 'products.oliveOil.p9.popup.p3',
+    price: '20,50',
+    weight: '3000'
   },
   {
     id: 10,
-    imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-10.png',
-    imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-10.png',
+    shortName: 'az_garr_v_3000',
+    imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-9.png',
+    imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-9.png',
     label: 'products.oliveOil.p10.label',
     btnLabel: 'products.oliveOil.p10.button.label',
     popupTitle: 'products.oliveOil.p10.popup.title',
     popupSubtitle: 'products.oliveOil.p10.popup.subtitle',
     popupP1: 'products.oliveOil.p10.popup.p1',
     popupP2: 'products.oliveOil.p10.popup.p2',
-    popupP3: 'products.oliveOil.p10.popup.p3'
+    popupP3: 'products.oliveOil.p10.popup.p3',
+    price: '13,25',
+    weight: '5000'
+  },
+  {
+    id: 11,
+    shortName: 'az_garr_v_5000',
+    imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-9.png',
+    imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-9.png',
+    label: 'products.oliveOil.p11.label',
+    btnLabel: 'products.oliveOil.p11.button.label',
+    popupTitle: 'products.oliveOil.p11.popup.title',
+    popupSubtitle: 'products.oliveOil.p11.popup.subtitle',
+    popupP1: 'products.oliveOil.p11.popup.p1',
+    popupP2: 'products.oliveOil.p11.popup.p2',
+    popupP3: 'products.oliveOil.p11.popup.p3',
+    price: '21,00',
+    weight: '5000'
+  },
+  {
+    id: 12,
+    shortName: 'az_garr_vt_3000',
+    imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-10.png',
+    imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-10.png',
+    label: 'products.oliveOil.p12.label',
+    btnLabel: 'products.oliveOil.p12.button.label',
+    popupTitle: 'products.oliveOil.p12.popup.title',
+    popupSubtitle: 'products.oliveOil.p12.popup.subtitle',
+    popupP1: 'products.oliveOil.p12.popup.p1',
+    popupP2: 'products.oliveOil.p12.popup.p2',
+    popupP3: 'products.oliveOil.p12.popup.p3',
+    price: '13,25',
+    weight: '5000'
+  },
+  {
+    id: 13,
+    shortName: 'az_garr_vt_5000',
+    imgTN: '/images/produtos/azeite/imagens_thumbnails/p_azeite-10.png',
+    imgPP: '/images/produtos/azeite/imagens_popup/p_azeite-10.png',
+    label: 'products.oliveOil.p13.label',
+    btnLabel: 'products.oliveOil.p13.button.label',
+    popupTitle: 'products.oliveOil.p13.popup.title',
+    popupSubtitle: 'products.oliveOil.p13.popup.subtitle',
+    popupP1: 'products.oliveOil.p13.popup.p1',
+    popupP2: 'products.oliveOil.p13.popup.p2',
+    popupP3: 'products.oliveOil.p13.popup.p3',
+    price: '21,00',
+    weight: '5000'
   }
 
 ];

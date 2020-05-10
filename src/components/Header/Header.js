@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import {setLang} from './../../actions';
+import { Badge } from 'reactstrap';
 
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink,
   UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
@@ -106,14 +107,19 @@ class Header extends Component {
                 </NavLink>
               </NavItem>
 
-              <NavItem>
+              <NavItem className="flex">
                 <NavLink className="grey-nav-link" onClick={() => this.props.setLang('PT-pt')}>
                   PT
                 </NavLink>
-              </NavItem>
-              <NavItem>
+                |
                 <NavLink className="grey-nav-link" onClick={() => this.props.setLang('EN-en')}>
                   EN
+                </NavLink>
+              </NavItem>
+              <NavItem className="flex">
+                <NavLink href="/" className="flex">
+                  <img className="cart_img" src="/images/cart.svg" alt="" />
+                  <Badge className="cart_badge">{this.props.cart === null? null : this.props.cart.length}</Badge>
                 </NavLink>
               </NavItem>
             </Nav>
@@ -128,6 +134,7 @@ const mapStateToProps = (state) => {
   return {
     locale: state.lang.locale,
     messages: state.lang.messages,
+    cart: state.store.cart
   };
 };
 

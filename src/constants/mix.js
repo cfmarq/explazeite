@@ -13,6 +13,7 @@ const texts = {
 const items = [
   {
     id: 1,
+    shortName: 'mix_1',
     imgTN: '/images/produtos/combinados/p_combinado-1.png',
     imgPP: '/images/produtos/combinados/p_combinado-1.png',
     label: 'products.mix.p1.label',
@@ -21,10 +22,13 @@ const items = [
     popupSubtitle: 'products.mix.p1.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '12,50',
+    weight: '2550'
   },
   {
     id: 2,
+    shortName: 'mix_2',
     imgTN: '/images/produtos/combinados/p_combinado-2.png',
     imgPP: '/images/produtos/combinados/p_combinado-2.png',
     label: 'products.mix.p2.label',
@@ -33,10 +37,13 @@ const items = [
     popupSubtitle: 'products.mix.p2.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '10,00',
+    weight: '2600'
   },
   {
     id: 3,
+    shortName: 'mix_3',
     imgTN: '/images/produtos/combinados/p_combinado-3.png',
     imgPP: '/images/produtos/combinados/p_combinado-3.png',
     label: 'products.mix.p3.label',
@@ -45,10 +52,13 @@ const items = [
     popupSubtitle: 'products.mix.p3.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '9,50',
+    weight: '2550'
   },
   {
     id: 4,
+    shortName: 'mix_4',
     imgTN: '/images/produtos/combinados/p_combinado-4.png',
     imgPP: '/images/produtos/combinados/p_combinado-4.png',
     label: 'products.mix.p4.label',
@@ -57,10 +67,13 @@ const items = [
     popupSubtitle: 'products.mix.p4.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '9,25',
+    weight: '2550'
   },
   {
     id: 5,
+    shortName: 'mix_5',
     imgTN: '/images/produtos/combinados/p_combinado-5.png',
     imgPP: '/images/produtos/combinados/p_combinado-5.png',
     label: 'products.mix.p5.label',
@@ -69,10 +82,13 @@ const items = [
     popupSubtitle: 'products.mix.p5.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '9,35',
+    weight: '2550'
   },
   {
     id: 6,
+    shortName: 'mix_6',
     imgTN: '/images/produtos/combinados/p_combinado-6.png',
     imgPP: '/images/produtos/combinados/p_combinado-6.png',
     label: 'products.mix.p6.label',
@@ -81,10 +97,13 @@ const items = [
     popupSubtitle: 'products.mix.p6.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '6,50',
+    weight: '2550'
   },
   {
     id: 7,
+    shortName: 'mix_7',
     imgTN: '/images/produtos/combinados/p_combinado-7.png',
     imgPP: '/images/produtos/combinados/p_combinado-7.png',
     label: 'products.mix.p7.label',
@@ -93,10 +112,13 @@ const items = [
     popupSubtitle: 'products.mix.p7.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '6,00',
+    weight: '2550'
   },
   {
     id: 8,
+    shortName: 'mix_8',
     imgTN: '/images/produtos/combinados/p_combinado-8.png',
     imgPP: '/images/produtos/combinados/p_combinado-8.png',
     label: 'products.mix.p8.label',
@@ -105,10 +127,13 @@ const items = [
     popupSubtitle: 'products.mix.p8.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '7,60',
+    weight: '2650'
   },
   {
     id: 9,
+    shortName: 'mix_9',
     imgTN: '/images/produtos/combinados/p_combinado-9.png',
     imgPP: '/images/produtos/combinados/p_combinado-9.png',
     label: 'products.mix.p9.label',
@@ -117,10 +142,13 @@ const items = [
     popupSubtitle: 'products.mix.p9.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '8,00',
+    weight: '2550'
   },
   {
     id: 10,
+    shortName: 'mix_10',
     imgTN: '/images/produtos/combinados/p_combinado-10.png',
     imgPP: '/images/produtos/combinados/p_combinado-10.png',
     label: 'products.mix.p10.label',
@@ -129,10 +157,13 @@ const items = [
     popupSubtitle: 'products.mix.p10.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '4,50',
+    weight: '2550'
   },
   {
     id: 11,
+    shortName: 'mix_11',
     imgTN: '/images/produtos/combinados/p_combinado-11.png',
     imgPP: '/images/produtos/combinados/p_combinado-11.png',
     label: 'products.mix.p11.label',
@@ -141,10 +172,13 @@ const items = [
     popupSubtitle: 'products.mix.p11.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '5,00',
+    weight: '2550'
   },
   {
     id: 12,
+    shortName: 'mix_12',
     imgTN: '/images/produtos/combinados/p_combinado-12.png',
     imgPP: '/images/produtos/combinados/p_combinado-12.png',
     label: 'products.mix.p12.label',
@@ -153,7 +187,9 @@ const items = [
     popupSubtitle: 'products.mix.p12.label',
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
-    popupP3: 'products.mix.p3'
+    popupP3: 'products.mix.p3',
+    price: '6,10',
+    weight: '2550'
   }
 
 ];

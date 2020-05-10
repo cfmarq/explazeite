@@ -1,7 +1,7 @@
 import { SET_CART } from './../actions/types';
 
 const INITIAL_STATE = {
-  cart: null
+  cart: []
 };
 
 export default (state = INITIAL_STATE, action) => {

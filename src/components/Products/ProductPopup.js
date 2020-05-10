@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
+import {connect} from 'react-redux';
+import {setCart} from './../../actions';
+import {withRouter} from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
-import { Modal, ModalHeader, ModalBody, Row, Col } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody, Row, Col, Input, Button } from 'reactstrap';
 
 class ProductPopup extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      modal: false
+      modal: false,
+      quantity: 1
     };
 
     this.toggle = this.toggle.bind(this);
@@ -19,6 +23,12 @@ class ProductPopup extends Component {
     });
   }
 
+  addToCart = () => {
+    var cart = this.props.cart!== null? this.props.cart : [];
+    cart.push({shortName: this.props.product.shortName, quantity: this.state.quantity})
+    this.props.setCart(cart)
+    window.location.reload()
+  }
   render (){
 
     return (
@@ -29,7 +39,7 @@ class ProductPopup extends Component {
               <img src={this.props.product.imgTN} alt=""  />
             </div>
             <div className="product__label-div">
-              <FormattedMessage id={this.props.product.label} />
+              {this.props.product.price !== undefined && <span className="bold">{this.props.product.price} € / / </span> }<FormattedMessage id={this.props.product.label} />
             </div>
             <div className="product__button-div">
               <FormattedMessage id={this.props.product.btnLabel} />
@@ -54,6 +64,24 @@ class ProductPopup extends Component {
                         <p className="popup-text light"><FormattedMessage id={this.props.product.popupP2} /></p>
                         <p className="popup-text light"><FormattedMessage id={this.props.product.popupP3} /></p>
                       </div>
+                      {this.props.product.price !== undefined &&
+                        <>
+                          <div className="add_item_div">
+                            <div className="price_div">
+                              {this.props.product.price}€
+                            </div>
+                            <div className="price_label_div">
+                              <FormattedMessage id="products.warning" />
+                            </div>
+                          </div>
+                          <div className="add_item_div">
+                            <Input className="quantity_input" value={this.state.quantity} onChange={e => this.setState({quantity: e.target.value})} min={1} max={100} type="number" step="1" />
+                            <Button className="btn-gold btn_add" onClick={() => this.addToCart()}>
+                              <FormattedMessage id="buttons.add" />
+                            </Button>
+                          </div>
+                        </>
+                      }
                     </div>
                   </Col>
                 </Row>
@@ -65,5 +93,12 @@ class ProductPopup extends Component {
     );
   }
 }
+const mapStateToProps = (state) => {
+  return {
+    locale: state.lang.locale,
+    messages: state.lang.messages,
+    cart: state.store.cart
+  };
+};
 
-export default ProductPopup;
+export default withRouter(connect(mapStateToProps, {setCart})(ProductPopup));
