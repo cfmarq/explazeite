@@ -117,7 +117,7 @@ class Header extends Component {
                 </NavLink>
               </NavItem>
               <NavItem className="flex">
-                <NavLink href="/" className="flex">
+                <NavLink href="/cart" className="flex">
                   <img className="cart_img" src="/images/cart.svg" alt="" />
                   <Badge className="cart_badge">{this.props.cart === null? null : this.props.cart.length}</Badge>
                 </NavLink>

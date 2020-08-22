@@ -1,0 +1,44 @@
+.tableHeader {
+  background: $gold;
+  padding: 12px;
+  color: white;
+}
+
+.tableRow {
+  border-left: 1px solid $gold;
+  border-bottom: 1px solid $gold;
+  border-right: 1px solid $gold;
+  padding: 12px;
+}
+
+.shippingRow {
+  border-left: 1px solid $gold;
+  border-bottom: 1px solid $gold;
+  border-right: 1px solid $gold;
+  padding: 12px 12px 12px 30px;
+}
+
+.row-spacing {
+  padding-top: 50px;
+}
+
+.summaryTableLeft {
+  background: $gold;
+  padding: 12px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.summaryTableRight {
+  border-top: 1px solid $gold;
+  border-right: 1px solid $gold;
+  padding: 12px;
+}
+
+.summaryTableLeftLast, .summaryTableRightLast {
+  border-bottom: 1px solid $gold;
+}
+
+.cart_thumbnail {
+  height: 100px;
+}

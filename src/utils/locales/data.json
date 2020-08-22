@@ -15,6 +15,7 @@
       "buttons.read-more": "Ler mais",
       "buttons.back": "Voltar",
       "buttons.add": "Adicionar",
+      "buttons.cart.finish": "Finalizar Compra",
 
       "history.title": "A Explazeite é uma empresa familiar",
       "history.item1.title": "Lagar das Prensas",
@@ -435,6 +436,21 @@
 
       "contacts.map": "MAPA",
 
+      "cart.cart": "CARRINHO",
+      "cart.emptyCart": "esvaziar carrinho",
+      "cart.shipping": "ENVIO",
+      "cart.shipping.nationalShipping": "Envios Nacionais",
+      "cart.shipping.shipping1": "FozPost 24h",
+      "cart.shipping.shipping2": "FozPost 48h",
+      "cart.total": "TOTAL",
+      "cart.subtotal": "SUBTOTAL",
+      "cart.cartTotal": "TOTAL DO CARRINHO",
+
+      "cart.products.product": "PRODUTO",
+      "cart.products.price": "PREÇO",
+      "cart.products.quantity": "QUANTIDATE",
+      "cart.products.subtotal": "SUBTOTAL",
+
       "footer.feedback": "A sua opinião é importante. Partilhe-a!",
       "footer.contact": "Contactos: 249 391 018 // 918 628 963",
       "footer.follow": "Siga-nos",
@@ -458,6 +474,7 @@
       "buttons.read-more": "Read more",
       "buttons.back": "Back",
       "buttons.add": "Add",
+      "buttons.cart.finish": "Finish Purchase",
 
       "history.title": "Explazeite is a familiar company",
       "history.item1.title": "The Olive Mill",
@@ -876,6 +893,21 @@
       "contacts.p6": "Monday",
 
       "contacts.map": "MAP",
+
+      "cart.cart": "CART",
+      "cart.emptyCart": "empty cart",
+      "cart.shipping": "SHIPPING",
+      "cart.shipping.nationalShipping": "National Shipping",
+      "cart.shipping.shipping1": "FozPost 24h",
+      "cart.shipping.shipping2": "FozPost 48h",
+      "cart.total": "TOTAL",
+      "cart.subtotal": "SUBTOTAL",
+      "cart.cartTotal": "CART TOTAL",
+
+      "cart.products.product": "PRODUCT",
+      "cart.products.price": "PRICE",
+      "cart.products.quantity": "QUANTITY",
+      "cart.products.subtotal": "SUBTOTAL",
 
       "footer.feedback": "Your opinion is important. Share it!",
       "footer.contact": "Contacts: 249 391 018 // 918 628 963",

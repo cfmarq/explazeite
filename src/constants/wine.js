@@ -27,8 +27,8 @@ const items = [
     popupP1: 'products.wine.p1.popup.p1',
     popupP2: 'products.wine.p1.popup.p2',
     popupP3: 'products.wine.p1.popup.p3',
-    price: '1,80',
-    weight: '1200'
+    price: 1.80,
+    weight: 1200.
   },
   {
     id: 2,
@@ -42,8 +42,8 @@ const items = [
     popupP1: 'products.wine.p2.popup.p1',
     popupP2: 'products.wine.p2.popup.p2',
     popupP3: 'products.wine.p2.popup.p3',
-    price: '1,70',
-    weight: '1200'
+    price: 1.70,
+    weight: 1200
   },
   {
     id: 3,
@@ -57,8 +57,8 @@ const items = [
     popupP1: 'products.wine.p3.popup.p1',
     popupP2: 'products.wine.p3.popup.p2',
     popupP3: 'products.wine.p3.popup.p3',
-    price: '1,50',
-    weight: '1200'
+    price: 1.50,
+    weight: 1200
   },
   {
     id: 4,
@@ -72,8 +72,8 @@ const items = [
     popupP1: 'products.wine.p4.popup.p1',
     popupP2: 'products.wine.p4.popup.p2',
     popupP3: 'products.wine.p4.popup.p3',
-    price: '1,50',
-    weight: '1200'
+    price: 1.50,
+    weight: 1200
   },
   {
     id: 5,
@@ -87,8 +87,8 @@ const items = [
     popupP1: 'products.wine.p5.popup.p1',
     popupP2: 'products.wine.p5.popup.p2',
     popupP3: 'products.wine.p5.popup.p3',
-    price: '2,80',
-    weight: '1400'
+    price: 2.80,
+    weight: 1400
   },
   {
     id: 6,
@@ -102,8 +102,8 @@ const items = [
     popupP1: 'products.wine.p6.popup.p1',
     popupP2: 'products.wine.p6.popup.p2',
     popupP3: 'products.wine.p6.popup.p3',
-    price: '2,30',
-    weight: '1250'
+    price: 2.30,
+    weight: 1250
   },
   {
     id: 7,
@@ -117,8 +117,8 @@ const items = [
     popupP1: 'products.wine.p7.popup.p1',
     popupP2: 'products.wine.p7.popup.p2',
     popupP3: 'products.wine.p7.popup.p3',
-    price: '2,30',
-    weight: '1250'
+    price: 2.30,
+    weight: 1250
   },
   {
     id: 8,
@@ -132,8 +132,8 @@ const items = [
     popupP1: 'products.wine.p8.popup.p1',
     popupP2: 'products.wine.p8.popup.p2',
     popupP3: 'products.wine.p8.popup.p3',
-    price: '7,35',
-    weight: '5000'
+    price: 7.35,
+    weight: 5000
   },
   {
     id: 9,
@@ -147,8 +147,8 @@ const items = [
     popupP1: 'products.wine.p9.popup.p1',
     popupP2: 'products.wine.p9.popup.p2',
     popupP3: 'products.wine.p9.popup.p3',
-    price: '13,50',
-    weight: '10000'
+    price: 13.50,
+    weight: 10000
   },
   {
     id: 10,
@@ -162,8 +162,8 @@ const items = [
     popupP1: 'products.wine.p10.popup.p1',
     popupP2: 'products.wine.p10.popup.p2',
     popupP3: 'products.wine.p10.popup.p3',
-    price: '7,35',
-    weight: '5000'
+    price: 7.35,
+    weight: 5000
   },
   {
     id: 11,
@@ -177,8 +177,8 @@ const items = [
     popupP1: 'products.wine.p11.popup.p1',
     popupP2: 'products.wine.p11.popup.p2',
     popupP3: 'products.wine.p11.popup.p3',
-    price: '13,50',
-    weight: '10000'
+    price: 13.50,
+    weight: 10000
   },
   {
     id: 12,
@@ -192,8 +192,8 @@ const items = [
     popupP1: 'products.wine.p12.popup.p1',
     popupP2: 'products.wine.p12.popup.p2',
     popupP3: 'products.wine.p12.popup.p3',
-    price: '25,50',
-    weight: '20000'
+    price: 25.50,
+    weight: 20000
   }
 
 ];

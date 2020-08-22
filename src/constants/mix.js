@@ -23,8 +23,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '12,50',
-    weight: '2550'
+    price: 12.50,
+    weight: 2550
   },
   {
     id: 2,
@@ -38,8 +38,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '10,00',
-    weight: '2600'
+    price: 10.00,
+    weight: 2600
   },
   {
     id: 3,
@@ -53,8 +53,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '9,50',
-    weight: '2550'
+    price: 9.50,
+    weight: 2550
   },
   {
     id: 4,
@@ -68,8 +68,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '9,25',
-    weight: '2550'
+    price: 9.25,
+    weight: 2550
   },
   {
     id: 5,
@@ -83,8 +83,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '9,35',
-    weight: '2550'
+    price: 9.5,
+    weight: 2550
   },
   {
     id: 6,
@@ -98,8 +98,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '6,50',
-    weight: '2550'
+    price: 6.50,
+    weight: 2550
   },
   {
     id: 7,
@@ -113,8 +113,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '6,00',
-    weight: '2550'
+    price: 6.00,
+    weight: 2550
   },
   {
     id: 8,
@@ -128,8 +128,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '7,60',
-    weight: '2650'
+    price: 7.60,
+    weight: 2650
   },
   {
     id: 9,
@@ -143,8 +143,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '8,00',
-    weight: '2550'
+    price: 8.00,
+    weight: 2550
   },
   {
     id: 10,
@@ -158,8 +158,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '4,50',
-    weight: '2550'
+    price: 4.50,
+    weight: 2550
   },
   {
     id: 11,
@@ -173,8 +173,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '5,00',
-    weight: '2550'
+    price: 5.00,
+    weight: 2550
   },
   {
     id: 12,
@@ -188,8 +188,8 @@ const items = [
     popupP1: 'products.mix.p1',
     popupP2: 'products.mix.p2',
     popupP3: 'products.mix.p3',
-    price: '6,10',
-    weight: '2550'
+    price: 6.10,
+    weight: 2550
   }
 
 ];

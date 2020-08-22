@@ -35,10 +35,10 @@ const FeaturedItem = (props) => {
                 <h3><FormattedMessage id="featured.item.social" /></h3>
               </div>
               <div>
-                <a href="https://www.facebook.com/explazeite/" target="_blank">
+                <a href="https://www.facebook.com/explazeite/" target="_blank" rel="noopener noreferrer">
                   <img alt="facebook" className="social_ico" src="/images/fb_ico.png" height="35px" />
                 </a>
-                <a href="https://www.instagram.com/explazeite/" target="_blank">
+                <a href="https://www.instagram.com/explazeite/" target="_blank" rel="noopener noreferrer">
                   <img alt="instagram" className="social_ico" src="/images/insta_ico.png" height="35px" />
                 </a>
               </div>

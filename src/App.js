@@ -9,6 +9,7 @@ import Infrastructure from './containers/Infrastructures';
 import Featured from './containers/Featured';
 import FeaturedItem from './containers/Featured/FeaturedItem';
 import Products from './components/Products';
+import Cart from './components/Cart';
 import Header from './components/Header';
 import Footer from './containers/Footer';
 import Contacts from './containers/Contacts';
@@ -27,6 +28,7 @@ class App extends Component {
             <Route path={"/featured/:id"} component={FeaturedItem} />
             <Route path={"/featured"} component={Featured} />
             <Route path={"/products/:id"} component={Products} />
+            <Route path={"/cart"} component={Cart} />
             <Route path="/contacts" component={Contacts} />
             <Redirect to={"/"} />
           </Switch>

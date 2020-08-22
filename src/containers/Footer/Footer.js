@@ -26,10 +26,10 @@ const Footer = () => {
                 <span className="footer_regular">
                   <FormattedMessage id="footer.follow" />
                 </span><br/>
-                <a href="https://www.facebook.com/explazeite/" target="_blank">
+                <a href="https://www.facebook.com/explazeite/" target="_blank" rel="noopener noreferrer">
                   <img alt="facebook" className="footer_img" src="/images/footer/footer_face.png" height="35px" />
                 </a>
-                <a href="https://www.instagram.com/explazeite/" target="_blank">
+                <a href="https://www.instagram.com/explazeite/" target="_blank" rel="noopener noreferrer">
                   <img alt="instagram" className="footer_img" src="/images/footer/footer_insta.png" height="35px" />
                 </a>
               </div>

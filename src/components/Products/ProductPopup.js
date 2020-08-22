@@ -13,22 +13,37 @@ class ProductPopup extends Component {
       modal: false,
       quantity: 1
     };
-
-    this.toggle = this.toggle.bind(this);
   }
 
-  toggle() {
+  toggle = () => {
     this.setState({
       modal: !this.state.modal
     });
   }
 
   addToCart = () => {
-    var cart = this.props.cart!== null? this.props.cart : [];
-    cart.push({shortName: this.props.product.shortName, quantity: this.state.quantity})
+    var cart = this.props.cart !== null && this.props.cart.length > 0 ? this.props.cart : [];
+    if (cart.length > 0) {
+      console.log(cart);
+      var found = false;
+      cart.forEach(el => {
+        if (el.shortName === this.props.product.shortName) {
+          el.quantity += this.state.quantity
+          found = true;
+        }
+      })
+      if (!found) {
+        cart.push({shortName: this.props.product.shortName, popupTitle: this.props.product.popupTitle, popupSubtitle: this.props.product.popupSubtitle, quantity: this.state.quantity, price: this.props.product.price, weight: this.props.product.weight, imgTN: this.props.product.imgTN})
+      }
+    } else {
+      cart.push({shortName: this.props.product.shortName, popupTitle: this.props.product.popupTitle, popupSubtitle: this.props.product.popupSubtitle, quantity: this.state.quantity, price: this.props.product.price, weight: this.props.product.weight, imgTN: this.props.product.imgTN})
+    }
+
     this.props.setCart(cart)
-    window.location.reload()
+    this.toggle()
+    //window.location.reload()
   }
+
   render (){
 
     return (
@@ -76,7 +91,7 @@ class ProductPopup extends Component {
                           </div>
                           <div className="add_item_div">
                             <Input className="quantity_input" value={this.state.quantity} onChange={e => this.setState({quantity: e.target.value})} min={1} max={100} type="number" step="1" />
-                            <Button className="btn-gold btn_add" onClick={() => this.addToCart()}>
+                            <Button className="btn-gold btn_add" onClick={this.addToCart}>
                               <FormattedMessage id="buttons.add" />
                             </Button>
                           </div>

@@ -24,8 +24,8 @@ const items = [
     popupP1: 'products.oliveOil.p1.popup.p1',
     popupP2: 'products.oliveOil.p1.popup.p2',
     popupP3: 'products.oliveOil.p1.popup.p3',
-    price: '1,60',
-    weight: '500'
+    price: 1.60,
+    weight: 500
   },
   {
     id: 2,
@@ -39,8 +39,8 @@ const items = [
     popupP1: 'products.oliveOil.p2.popup.p1',
     popupP2: 'products.oliveOil.p2.popup.p2',
     popupP3: 'products.oliveOil.p2.popup.p3',
-    price: '3,65',
-    weight: '885'
+    price: 3.65,
+    weight: 885
   },
   {
     id: 3,
@@ -54,8 +54,8 @@ const items = [
     popupP1: 'products.oliveOil.p3.popup.p1',
     popupP2: 'products.oliveOil.p3.popup.p2',
     popupP3: 'products.oliveOil.p3.popup.p3',
-    price: '4,65',
-    weight: '1200'
+    price: 4.65,
+    weight: 1200
   },
   {
     id: 4,
@@ -69,8 +69,8 @@ const items = [
     popupP1: 'products.oliveOil.p4.popup.p1',
     popupP2: 'products.oliveOil.p4.popup.p2',
     popupP3: 'products.oliveOil.p4.popup.p3',
-    price: '7,25',
-    weight: '1200'
+    price: 7.25,
+    weight: 1200
   },
   {
     id: 5,
@@ -84,8 +84,8 @@ const items = [
     popupP1: 'products.oliveOil.p5.popup.p1',
     popupP2: 'products.oliveOil.p5.popup.p2',
     popupP3: 'products.oliveOil.p5.popup.p3',
-    price: '4,25',
-    weight: '580'
+    price: 4.25,
+    weight: 580
   },
   {
     id: 6,
@@ -99,8 +99,8 @@ const items = [
     popupP1: 'products.oliveOil.p6.popup.p1',
     popupP2: 'products.oliveOil.p6.popup.p2',
     popupP3: 'products.oliveOil.p6.popup.p3',
-    price: '8,25',
-    weight: '2000'
+    price: 8.25,
+    weight: 2000
   },
   {
     id: 7,
@@ -114,8 +114,8 @@ const items = [
     popupP1: 'products.oliveOil.p7.popup.p1',
     popupP2: 'products.oliveOil.p7.popup.p2',
     popupP3: 'products.oliveOil.p7.popup.p3',
-    price: '8,75',
-    weight: '2000'
+    price: 8.75,
+    weight: 2000.
   },
   {
     id: 8,
@@ -129,8 +129,8 @@ const items = [
     popupP1: 'products.oliveOil.p8.popup.p1',
     popupP2: 'products.oliveOil.p8.popup.p2',
     popupP3: 'products.oliveOil.p8.popup.p3',
-    price: '12,50',
-    weight: '3000'
+    price: 12.50,
+    weight: 3000
   },
   {
     id: 9,
@@ -144,8 +144,8 @@ const items = [
     popupP1: 'products.oliveOil.p9.popup.p1',
     popupP2: 'products.oliveOil.p9.popup.p2',
     popupP3: 'products.oliveOil.p9.popup.p3',
-    price: '20,50',
-    weight: '3000'
+    price: 20.50,
+    weight: 3000
   },
   {
     id: 10,
@@ -159,8 +159,8 @@ const items = [
     popupP1: 'products.oliveOil.p10.popup.p1',
     popupP2: 'products.oliveOil.p10.popup.p2',
     popupP3: 'products.oliveOil.p10.popup.p3',
-    price: '13,25',
-    weight: '5000'
+    price: 13.25,
+    weight: 5000
   },
   {
     id: 11,
@@ -174,8 +174,8 @@ const items = [
     popupP1: 'products.oliveOil.p11.popup.p1',
     popupP2: 'products.oliveOil.p11.popup.p2',
     popupP3: 'products.oliveOil.p11.popup.p3',
-    price: '21,00',
-    weight: '5000'
+    price: 21.00,
+    weight: 5000
   },
   {
     id: 12,
@@ -189,8 +189,8 @@ const items = [
     popupP1: 'products.oliveOil.p12.popup.p1',
     popupP2: 'products.oliveOil.p12.popup.p2',
     popupP3: 'products.oliveOil.p12.popup.p3',
-    price: '13,25',
-    weight: '5000'
+    price: 13.25,
+    weight: 5000
   },
   {
     id: 13,
@@ -204,8 +204,8 @@ const items = [
     popupP1: 'products.oliveOil.p13.popup.p1',
     popupP2: 'products.oliveOil.p13.popup.p2',
     popupP3: 'products.oliveOil.p13.popup.p3',
-    price: '21,00',
-    weight: '5000'
+    price: 21.00,
+    weight: 5000
   }
 
 ];
